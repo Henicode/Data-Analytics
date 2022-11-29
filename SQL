@@ -3,3 +3,6 @@ Structured Query Language is a domain-specific language used in programming and 
 Data stucture is a collection of data stored in format that can easily be accessed .
 to manage our data, we use to DBMS (database management system). two types of datbase management. 1. relational 2. non relational(nonsql).
 
+select *
+from order_item 
+
