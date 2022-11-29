@@ -3,6 +3,38 @@ Structured Query Language is a domain-specific language used in programming and 
 Data stucture is a collection of data stored in format that can easily be accessed .
 to manage our data, we use to DBMS (database management system). two types of datbase management. 1. relational 2. non relational(nonsql).
 
-select *
-from order_item 
 
+return products with quantity in stock euqal to 49, 78, 32 ??
+SELECT *
+FROM products 
+WHERE quantity_in_stock in ('49','78','32')
+
+return customers born between 1/1/1990 - 1/1/2000 ???
+
+SELECT * 
+FROM, customers
+WHERE date_of_birth between '1990/01/01' and '2000/01/01'
+
+get customers whos address contain avenue or trail, and phone number end with 9
+
+SELECT *
+FROM customers 
+Where address like '%avenue%' or
+      address like '%trail%' and 
+      phone_number like '%9'
+      
+      
+  get the customers whos.  first names are ELKA or AMBUR
+  last names end with EY or ON 
+  last names start with MY or contains SE 
+  last names contain B followed by R or U
+  
+  SELECT * 
+  FROM customers 
+  WHERE first_name REGEXP 'elka | ambur'
+  WHERE last_name REGEXP 'ey$ | on$;
+  WHERE last_name REGEXP '^my|se'
+  WHERE last-name REGEXP 'b[ri]'
+  
+  
+  
