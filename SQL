@@ -14,7 +14,7 @@ FROM - used to specif which table to select or delete data form.  (FROM customer
 WHERE clause- to filter data . (ex- WHERE points > 200)
 ORDER BY - used to sort the result-set in ascending or descending order. (ex. ORDER BY first_name)
 
-
+AS- command is used to rename a column or table with an alias. (ex. FROM points - 20 AS discounted_price ) .you can use AS to assign the arithmetic expression a name 
 
 
 
