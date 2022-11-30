@@ -9,6 +9,12 @@ FROM
 WHERE 
 ORDER 
 
+SELECT statment- used to select data from a database. you can specify where you want to select by (SELECT customers) or you can select all by using (SELECT *)
+FROM - used to specif which table to select or delete data form.  (FROM customers)
+WHERE clause- to filter data . (ex- WHERE points > 200)
+ORDER BY - used to sort the result-set in ascending or descending order. (ex. ORDER BY first_name)
+
+
 
 
 
