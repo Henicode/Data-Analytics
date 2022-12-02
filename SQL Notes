@@ -4,8 +4,9 @@ SQL Keywords are not case sensetive.
 
 Some SQL important commands are : 
                                     SELECT - extracts data from a database
+                                    SELECT TOP,LIMIT, FETCH - 
                                     UPDATE - updates data in a database
-                                    DELETE - deletes data from a database
+                                    DELETE - deletes data from a database. Ex - DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
                                     INSERT INTO - inserts new data into a database
                                     CREATE DATABASE - creates a new database
                                     ALTER DATABASE - modifies a database
