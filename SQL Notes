@@ -4,7 +4,7 @@ SQL Keywords are not case sensetive.
 
 Some SQL important commands are : 
                                     SELECT - extracts data from a database
-                                    SELECT TOP,LIMIT, FETCH - 
+                                    SELECT TOP,LIMIT, FETCH - Ex. SELECT TOP 50 PERCENT * FROM Customers;  | 
                                     UPDATE - updates data in a database
                                     DELETE - deletes data from a database. Ex - DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
                                     INSERT INTO - inserts new data into a database
@@ -25,12 +25,14 @@ Some SQL important commands are :
                                               To sort the records in descending order, use the DESC keyword (ORDER BY Country DESC;).
                                    INSERT INTO - used to insert new records in a table. Ex. INSERT INTO Customers (CustomerName, City, Country)
                                                                                             VALUES ('Cardinal', 'Stavanger', 'Norway');
-                                   NULL value is a field with no value or empty. You can test test the value by calling IS NULL or IS NOT NULL to determine if value is stored.
+                                   NULL value - field with no value or empty. You can test test the value by calling IS NULL or IS NOT NULL to determine if value is stored.
                                    UPDATE - used to modify the existing records in a table. WHERE clause specifies which record(s) that should be updated.
                                           - If you omit the WHERE clause, all records in the table will be updated!
                                           - EX - UPDATE Customers
                                                  SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
                                                  WHERE CustomerID = 1;
+                                 MIN() function returns the smallest value of the selected column. (Ex. SELECT MIN(PRICE) AS low_price)
+                                 MAX() function returns the largest value of the selected column.  (Ex. SELECT MAX(PRICE) FROM customers)
                                                  
 
 
