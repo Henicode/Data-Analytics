@@ -33,7 +33,7 @@ Some SQL important commands are :
                                                  WHERE CustomerID = 1;
                                  MIN() function returns the smallest value of the selected column. (Ex. SELECT MIN(PRICE) AS low_price)
                                  MAX() function returns the largest value of the selected column.  (Ex. SELECT MAX(PRICE) FROM customers)
-                                                 
+                                 COUNT() function returns the number of rows that matches a specified criterion.                
 
 
 
