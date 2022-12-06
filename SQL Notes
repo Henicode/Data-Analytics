@@ -33,7 +33,14 @@ Some SQL important commands are :
                                                  WHERE CustomerID = 1;
                                  MIN() function returns the smallest value of the selected column. (Ex. SELECT MIN(PRICE) AS low_price)
                                  MAX() function returns the largest value of the selected column.  (Ex. SELECT MAX(PRICE) FROM customers)
-                                 COUNT() function returns the number of rows that matches a specified criterion.                
+                                 COUNT() function returns the number of rows that matches a specified criterion. 
+                                 AVG() function returns the average value of a numeric column. SELECT AVG(column_name) 
+                                 SUM() function returns the total sum of a numeric column. SELECT SUM(column_name)
+                                 LIKE() operator used in a WHERE caluse to search for a specified pattern in a column.  WHERE last_name LIKE 'a%' OR 'a___' 
+                                      -- Wildcard characters - used in the LIKE operatror. using the symbols to specify the operation you want to execute. ex. WHERE first_name LIKE '[f-a]'  (https://www.w3schools.com/sql/sql_wildcards.asp) for more wildcard symbols 
+                                 IN operator allows to specity multiple values in a WHERE caluse. is also a shorthand for multiple OR conditions. 
+                                 
+                                 
 
 
 
@@ -41,7 +48,7 @@ Some SQL important commands are :
 Data stucture is a collection of data stored in format that can easily be accessed .
 to manage our data, we use to DBMS (database management system). two types of datbase management. 1. relational 2. non relational(nonsql).
 
-We have to follow the order of clause. we cannot change it. so they go as:
+*We have to follow the order of clause. we cannot change it. so they go as:
 SELECT 
 FROM
 WHERE 
