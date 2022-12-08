@@ -10,11 +10,12 @@ Some SQL important commands are :
                                     INSERT INTO - inserts new data into a database
                                     CREATE DATABASE - creates a new database
                                     ALTER DATABASE - modifies a database
-                                 ?   JOIN clause - is used used to combine rows from two or more tables, based on a related column between them.
-                                 ?               -(INNER) JOIN: Returns records that have matching values in both tables
-                                 ?               -LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
-                                 ?               -RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
-                                 ?               -FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+                                    JOIN clause - is used used to combine rows from two or more tables, based on a related column between them.
+                                                -(INNER) JOIN: Returns records that have matching values in both tables
+                                                -LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+                                                -RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+                                                -FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+                                    UNION operator - used to combine the result set of two or more of SELECT statements. 
                                     CREATE TABLE - creates a new table
                                     ALTER TABLE - modifies a table
                                     DROP TABLE - deletes a table
@@ -46,7 +47,12 @@ Some SQL important commands are :
                                  IN operator allows to specity multiple values in a WHERE caluse. is also a shorthand for multiple OR conditions. 
                                  BETWEEN operator selects valkues within a gven range. Value can be numbers, text, or dates. BETWEEN value1 AND value2. can also use the NOT operation to exclude certain data
                                  AS or Aliases are used to give a table or column in a table a temporary name. it will only last a duration of that query. 
-                                 
+                                 GROUP BY - statement groups rows that have the same values into summary rows. often used with aggregate functions such as (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+                                     GROUP BY SYNTAX - SELECT column_name(s)
+                                                       FROM table_name
+                                                       WHERE condition
+                                                       GROUP BY column_name(s)
+                                                       ORDER BY column_name(s);
                                  
                                  
                                  
