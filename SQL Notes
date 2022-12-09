@@ -48,7 +48,7 @@ Some SQL important commands are :
                                  BETWEEN operator selects valkues within a gven range. Value can be numbers, text, or dates. BETWEEN value1 AND value2. can also use the NOT operation to exclude certain data
                                  AS or Aliases are used to give a table or column in a table a temporary name. it will only last a duration of that query. 
                                  GROUP BY - statement groups rows that have the same values into summary rows. often used with aggregate functions such as (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
-                                     GROUP BY SYNTAX - SELECT column_name(s)
+                                     GROUP BY syntax - SELECT column_name(s)
                                                        FROM table_name
                                                        WHERE condition
                                                        GROUP BY column_name(s)
