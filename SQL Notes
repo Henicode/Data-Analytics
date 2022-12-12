@@ -54,7 +54,7 @@ Some SQL important commands are :
                                                        GROUP BY column_name(s)
                                                        ORDER BY column_name(s);
                                  REGEXP - regular expressions allow us to search for more complex patterns. instead of using % to describe specified string, you can use REGEXP 'alex' to query.
-                                        - ^ can also use the carrot sign to represent the begining of a string. AND $ to represent the end of a string.
+                                        - ^ can also use the carrot sign to represent the begining of a string. AND $ to represent the end of a string. ^ can be placed front of string, $ placed at the end of string 
                                         - | can use pipe/vertical bar to search for multiple words, a logical OR. WHERE last_name REGEXP 'brook | james' 
                                  
 
