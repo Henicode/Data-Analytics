@@ -42,7 +42,7 @@ Some SQL important commands are :
                                  COUNT() function returns the number of rows that matches a specified criterion. 
                                  AVG() function returns the average value of a numeric column. SELECT AVG(column_name) 
                                  SUM() function returns the total sum of a numeric column. SELECT SUM(column_name)
-                                 LIKE() operator used in a WHERE caluse to search for a specified pattern in a column.  WHERE last_name LIKE 'a%' OR 'a___' 
+                                 LIKE() operator used in a WHERE caluse to search for a specified pattern in a column.  WHERE last_name LIKE 'a%' OR 'a___' . %a - mean name start with a
                                       -- Wildcard characters - used in the LIKE operatror. using the symbols to specify the operation you want to execute. ex. WHERE first_name LIKE '[f-a]'  (https://www.w3schools.com/sql/sql_wildcards.asp) for more wildcard symbols 
                                  IN operator allows to specity multiple values in a WHERE caluse. is also a shorthand for multiple OR conditions. 
                                  BETWEEN operator selects valkues within a gven range. Value can be numbers, text, or dates. BETWEEN value1 AND value2. can also use the NOT operation to exclude certain data
@@ -53,6 +53,7 @@ Some SQL important commands are :
                                                        WHERE condition
                                                        GROUP BY column_name(s)
                                                        ORDER BY column_name(s);
+                                 REGEXP - regular expressions allow us to search for more complex patterns. instead of using % to describe specified string, you can use REGEXP 'alex' to query.
                                  
                                  
                                  
