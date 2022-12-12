@@ -4,7 +4,8 @@ SQL Keywords are not case sensetive.
 
 Some SQL important commands are : 
                                     SELECT - extracts data from a database
-                                    SELECT TOP,LIMIT, FETCH - Ex. SELECT TOP 50 PERCENT * FROM Customers;  | 
+                                    SELECT TOP,LIMIT, FETCH - Ex. SELECT TOP 50 PERCENT * FROM Customers;  
+                                           LIMIT - used to specity the number of records to retun. LIMIT 30 FROM customers  
                                     UPDATE - updates data in a database
                                     DELETE - deletes data from a database. Ex - DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
                                     INSERT INTO - inserts new data into a database
@@ -56,7 +57,7 @@ Some SQL important commands are :
                                  REGEXP - regular expressions allow us to search for more complex patterns. instead of using % to describe specified string, you can use REGEXP 'alex' to query.
                                         - ^ can also use the carrot sign to represent the begining of a string. AND $ to represent the end of a string. ^ can be placed front of string, $ placed at the end of string 
                                         - | can use pipe/vertical bar to search for multiple words, a logical OR. WHERE last_name REGEXP 'brook | james' 
-                                 
+                                  
 
 
 
