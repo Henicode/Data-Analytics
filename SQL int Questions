@@ -1,1 +1,27 @@
-
+What is the difference between SQL and MySQL?
+    SQL is primarily used to query and operate database systems.
+    MYSQL allows YOU to handle, store, modity and delete data and store data in organized way.
+    
+What are the different subsets of SQL?
+   DDL = data difinition language - allows you to perform various operations on the database such as CREATE, ALTER, AND DELETE objects. 
+   DML = data manipulation language - allows you to access and manipulate data. it helps you to insert, update, dalete adn retrieve data from the database. 
+   DCL = data control language - allows you to control access to the database. 
+   
+What do you mean by DBMS? What are its different types?
+  Data Management System (DBMS) is a software application that interact with the user, applications, and the database itself to capture and analyze data.
+  Two types of DBMS - Rational database management system: data stored in relations(tables). ex- MYSQL 
+                    - Non-Rational database managemet system: no concept of relations, tuples and attributes. ex- MongoDB 
+                    
+What do you mean by table and field in SQL?
+    A table has records(rows) and fields(columns) ???
+    
+What are joins in SQL?
+   Joins clause is used to combine two or more rows to identity the relation between them. 
+   
+What is the difference between CHAR and VARCHAR2 datatype in SQL?
+   Fundimental difference between CHAR and VARCHAR is that the CHAR data type is fixed the length, while the VARCHAR data type supports variable-lenth columns of data.
+   
+What is the Primary key?
+What are Constraints?
+What is the difference between DELETE and TRUNCATE statements?
+What is a Unique key?
