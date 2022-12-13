@@ -39,3 +39,5 @@ What is the difference between DELETE and TRUNCATE statements?
 DELETE is used to delete specified rows, while TRUNCATE is used to delete all the rows from a table. 
 
 What is a Unique key?
+UNIQUE constraint ensures that all vlaues in a column are different.
+
