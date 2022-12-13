@@ -22,6 +22,20 @@ What is the difference between CHAR and VARCHAR2 datatype in SQL?
    Fundimental difference between CHAR and VARCHAR is that the CHAR data type is fixed the length, while the VARCHAR data type supports variable-lenth columns of data.
    
 What is the Primary key?
+A primary key in SQL is a column (or collection of columns) or a set of columns that uniquely identifies each row in the table. 
+     for example- in a customers table, customer_id or any assigned column name would be refered to as the primary key
+     
 What are Constraints?
+constraints are used to limit the type of data that can go into a table. They are used to specity rules for the data in tables. 
+Some Constraints are:   NOT NULL - Ensures that a column cannot have a NULL value
+                        UNIQUE - Ensures that all values in a column are different
+                        PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+                        FOREIGN KEY - Prevents actions that would destroy links between tables
+                        CHECK - Ensures that the values in a column satisfies a specific condition
+                        DEFAULT - Sets a default value for a column if no value is specified
+                        CREATE INDEX - Used to create and retrieve data from the database very quickly
+                        
 What is the difference between DELETE and TRUNCATE statements?
+DELETE is used to delete specified rows, while TRUNCATE is used to delete all the rows from a table. 
+
 What is a Unique key?
