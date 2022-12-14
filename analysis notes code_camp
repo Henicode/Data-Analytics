@@ -15,5 +15,6 @@ Data analysis process -
  Portfolio Exercise Steps: Extract data from database into SQL for manipulating, cleaning, and formating 
                            Clean the data for any unwanted redundant 
                            Merge data into Excel for more cleaning and display 
+                           Present the data in a more understanding way with charts and make it interactive using slicer for better flexablity. 
                            
              
