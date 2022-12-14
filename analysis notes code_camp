@@ -11,4 +11,9 @@ Data analysis process -
                  5. Action - do something about the analysis. building mechine learning models, feature engineering, building ETL pipelines, Decision making and real life tests.
   
  Dataframe shows how many rows and columns our dataframe has.
+ 
+ Portfolio Exercise Steps: Extract data from database into SQL for manipulating, cleaning, and formating 
+                           Clean the data for any unwanted redundant 
+                           Merge data into Excel for more cleaning and display 
+                           
              
