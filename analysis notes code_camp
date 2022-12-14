@@ -12,6 +12,7 @@ Data analysis process -
   
  Dataframe shows how many rows and columns our dataframe has.
  Loc method is used to access data as well as updating it. 
+ An Excel sheet is not allowed in a jupiter notebook cell. 
  
  Portfolio Exercise Steps: Extract data from database into SQL for manipulating, cleaning, and formating 
                            Clean the data for any unwanted redundant 
