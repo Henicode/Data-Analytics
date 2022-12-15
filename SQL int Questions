@@ -41,3 +41,24 @@ DELETE is used to delete specified rows, while TRUNCATE is used to delete all th
 What is a Unique key?
 UNIQUE constraint ensures that all vlaues in a column are different.
 
+What is the difference between truncate, delete, and drop?
+Delete is used to delete rows from a table, truncate is used to delete all the rows from the table and free the space conatining the table, drop is used to 
+       remove object from the database 
+       
+What is Alias in sql?
+It is a temporary name assigned to the table or table column for the purpose of a particular sql query.
+
+How to display even no. of rows in an employee table?
+
+Display last 50% of records from the employee table?
+  SELECT * FROM
+    (
+        SELECT TOP 50 PERCENT *
+
+        FROM [Table]
+
+        ORDER BY [Field] DESC
+   )
+   ORDER BY [Field] ASC
+
+
