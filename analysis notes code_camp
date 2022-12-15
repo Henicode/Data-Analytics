@@ -17,7 +17,7 @@ Data analysis process -
  You can import Exel,CSV,XML files, data from API to jupiter notebook to work on. 
  
  Portfolio Exercise Steps: Extract data from database into SQL for manipulating, cleaning, and formating 
-                           Clean the data for any unwanted redundant 
+                           Clean the data for any unwanted redundant, missing, duplicate, data from different source, structral error. 
                            Merge data into Excel for more cleaning and display 
                            Present the data in a more understanding way with charts and make it interactive using slicer for better flexablity. 
                            
