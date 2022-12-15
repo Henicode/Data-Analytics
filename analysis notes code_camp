@@ -14,6 +14,7 @@ Data analysis process -
  Loc method is used to access data as well as updating it. 
  An Excel sheet is not allowed in a jupiter notebook cell. 
  Code, Markdown, Raw are the three main jupiter notebook cells.
+ You can import Exel,CSV,XML files, data from API to jupiter notebook to work on. 
  
  Portfolio Exercise Steps: Extract data from database into SQL for manipulating, cleaning, and formating 
                            Clean the data for any unwanted redundant 
