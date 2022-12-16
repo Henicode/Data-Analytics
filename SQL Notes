@@ -77,8 +77,13 @@ FROM - used to specif which table to select or delete data form.  (FROM customer
 WHERE clause- to filter data . (ex- WHERE points > 200)
 ORDER BY - used to sort the result-set in ascending or descending order. (ex. ORDER BY first_name)
 
-
-
+Join Clause Explanation :
+     Inner Join : SELECT StudentCourse.COURSE_ID, Student.NAME, Student.AGE FROM Student     (selecting the course_id from studentcourse table. name and age from
+                                                                                               student table which is specified in the from clause and .)
+                  INNER JOIN StudentCourse                                                   (essentialy saying from students table join with the student course table)
+                  ON Student.ROLL_NO = StudentCourse.ROLL_NO;                           (ON is to specify the join conditions, that is, to define how the tables should be joined)
+                                                                                           ON condition is optional 
+                                                                                           
 
 
 
@@ -92,6 +97,8 @@ ORDER BY - used to sort the result-set in ascending or descending order. (ex. OR
 
 
  ----------------------------------------------------------------EXC-----------------------------------------------------------------------------------
+ 
+ 
 return products with quantity in stock euqal to 49, 78, 32 ??
 SELECT *
 FROM products 
