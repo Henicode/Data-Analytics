@@ -17,6 +17,7 @@ Some SQL important commands are :
                                                 -LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
                                                 -RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
                                                 -FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+                                    NATURAL join - is structured in such a way that, columns with the same name of associated tables will appear once only.
                                     UNION operator - used to combine the result set of two or more of SELECT statements. 
                                     CREATE TABLE - creates a new table
                                     ALTER TABLE - modifies a table
