@@ -13,10 +13,12 @@ Some SQL important commands are :
                                     CREATE DATABASE - creates a new database
                                     ALTER DATABASE - modifies a database
                                     JOIN clause - is used used to combine rows from two or more tables, based on a related column between them.
-                                                -(INNER) JOIN: Returns records that have matching values in both tables
-                                                -LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
-                                                -RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
-                                                -FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+                                                -INNER JOIN: Returns records that have matching values in both tables
+                                                -LEFT JOIN: Returns all records from the left table, and the matched records from the right table
+                                                -RIGHT JOIN: Returns all records from the right table, and the matched records from the left table
+    FULL OUTER JOIN and FULL JOIN are the same. -FULL JOIN: Returns all records when there is a match in either left or right table
+                                                -OUTER JOIN: returns all records when there is a match in left (table1) or right (table2) table records.
+                                                              
                                     SELF JOIN - is a regular join, but the table is joined with itself.
                                                   SELECT column_name(s)
                                                   FROM table1 T1, table1 T2
