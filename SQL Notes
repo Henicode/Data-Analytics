@@ -17,6 +17,10 @@ Some SQL important commands are :
                                                 -LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
                                                 -RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
                                                 -FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+                                    SELF JOIN - is a regular join, but the table is joined with itself.
+                                                  SELECT column_name(s)
+                                                  FROM table1 T1, table1 T2
+                                                  WHERE condition;
                                     NATURAL join - is structured in such a way that, columns with the same name of associated tables will appear once only.
                                     UNION operator - used to combine the result set of two or more of SELECT statements. 
                                     CREATE TABLE - creates a new table
@@ -67,6 +71,7 @@ Some SQL important commands are :
                           FROM store.customers c
                           JOIN invoicing.payments p 
                           ON c.customer_id = p.customer_id 
+                    
                     
   
 
