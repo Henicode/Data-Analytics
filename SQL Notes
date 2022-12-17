@@ -60,7 +60,7 @@ Some SQL important commands are :
                                         - ^ can also use the carrot sign to represent the begining of a string. AND $ to represent the end of a string. ^ can be placed front of string, $ placed at the end of string 
                                         - | can use pipe/vertical bar to search for multiple words, a logical OR. WHERE last_name REGEXP 'brook | james' 
                                         
-  Joining across database - you can join two tables or rows from different database by specifying it when being called.
+  Joining across database - you can join two tables or rows from different database by prefixing it when being called.
                           for example if you want to join the customers table thats in the store database and 
                           payments table that is in the invoicing database, you can do so by specifying like:
                           SELECT *
