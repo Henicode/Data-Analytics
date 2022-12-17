@@ -34,7 +34,7 @@ Some SQL important commands are :
                                           - WHERE clause can be combined with AND operator (displays a record if all the conditions separated by AND are TRUE.),
                                                   OR operator (displays a record if any of the conditions separated by OR is TRUE) , and
                                                   NOT operator (displays a record if the condition(s) is NOT TRUE).
-                                    ORDER BY - used to sort the result-set in ascending or descending order. it sort the result ascending by default or (ORDER BY Country ASC),
+                                   ORDER BY - used to sort the result-set in ascending or descending order. it sort the result ascending by default or (ORDER BY Country ASC),
                                               To sort the records in descending order, use the DESC keyword (ORDER BY Country DESC;).
                                    INSERT INTO - used to insert new records in a table. Ex. INSERT INTO Customers (CustomerName, City, Country)
                                                                                             VALUES ('Cardinal', 'Stavanger', 'Norway');
@@ -67,10 +67,12 @@ Some SQL important commands are :
   Joining across database - you can join two tables or rows from different database by prefixing it when being called.
                           for example if you want to join the customers table thats in the store database and 
                           payments table that is in the invoicing database, you can do so by specifying like:
-                          SELECT *
-                          FROM store.customers c
-                          JOIN invoicing.payments p 
-                          ON c.customer_id = p.customer_id 
+                                                                                                              SELECT *
+                                                                                                              FROM store.customers c
+                                                                                                              JOIN invoicing.payments p 
+                                                                                                              ON c.customer_id = p.customer_id 
+ Join multiple tables : when needed to join multiple tables from more than 2 locations, its important to mention any attribute from any table,
+                                                                                        using format table_name.attribute_name (e.g. employee.first_name). 
                     
                     
   
