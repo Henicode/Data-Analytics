@@ -10,6 +10,12 @@ Some SQL important commands are :
                                     UPDATE - updates data in a database
                                     DELETE - deletes data from a database. Ex - DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
                                     INSERT INTO - inserts new data into a database
+                                                - you can also insert multiple rows like: INSERT INTO table1 (First, Last)
+                                                                                          VALUES
+                                                                                              ('Fred', 'Smith'),
+                                                                                              ('John', 'Smith'),
+                                                                                              ('Michael', 'Smith'),
+                                                                                              ('Robert', 'Smith');
                                     CREATE DATABASE - creates a new database
                                     ALTER DATABASE - modifies a database
                                     
