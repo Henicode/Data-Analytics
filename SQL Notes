@@ -80,7 +80,7 @@ Some SQL important commands are :
                                                                                                               FROM store.customers c
                                                                                                               JOIN invoicing.payments p 
                                                                                                               ON c.customer_id = p.customer_id 
- Join multiple tables : when needed to join multiple tables from more than 2 locations, its important to mention any attribute from any table,
+ Join multiple tables : when needed to join multiple tables from more than 2 locations, its important to mention the attribute from the table,
                                                                                         using format table_name.attribute_name (e.g. employee.first_name). 
  Compound join : is a join containing several columns joining two tables
  Implicit Join and Explicity Join : 
