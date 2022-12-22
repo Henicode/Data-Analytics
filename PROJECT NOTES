@@ -1,0 +1,7 @@
+Adding a column that stores value of subtracted outcome from two different columns 
+
+ALTER TABLE students
+ADD start_year INT;
+
+UPDATE students
+SET start_year = graduation_year - year_duration;
