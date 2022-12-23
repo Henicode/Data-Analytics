@@ -1,5 +1,7 @@
 plans for project university 
-
+tables; 
+  instructors - instName, id, area, rank, address, city, state, zip, enroll date, annual pay.
+  students - studen num, last name, first name, address, city, state, zip, entroll, start year, year duration, graduation, annnual tuition
 
 
 
