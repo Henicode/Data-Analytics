@@ -30,7 +30,7 @@ Some SQL important commands are :
                                                   FROM table1 T1, table1 T2
                                                   WHERE condition;
                                     NATURAL join - is structured in such a way that, columns with the same name of associated tables will appear once only.
-                                    
+                                    CROSS JOIN - is used to join everything from the first table and everything from the second table 
                                     UNION operator - used to combine the result set of two or more of SELECT statements. 
                                     CREATE TABLE - creates a new table
                                     ALTER TABLE - modifies a table
@@ -87,7 +87,9 @@ Some SQL important commands are :
                  FROM student INNER JOIN department                                                    FROM   student, department 
                  ON student.DepartmentID = department.DepartmentID;                                    WHERE  student.DepartmentID = department.DepartmentID;
  
- Column Attributes :
+ Column Attributes : VARCHAR - variable characters stored. max 250 characters can be stored
+                     INT - integer values 
+                     
                     
   
 
