@@ -4,7 +4,10 @@ tables;
   students - studen num, last name, first name, address, city, state, zip, entroll, start year, year duration, graduation, annnual tuition
   student grades - student num, last name, first name, area, inst name, gpa 
 
-
+Project Idea - Make a statistical analysis of messi carrier contribution and make a case why the Federation Internationale de Football Association should
+               consider making a new type of ballon d'or to reward players that have been consistent with thier talent a recongnition they deserve. 4
+               This will create a new motivation way for a selected few to thrive under pressure because they will persue something only the greats
+               have achieved. 
 
 PROBLEM RUN INS:
 cannot add 70 random number values into a column due to restriction. need to figure out ..... stuck on trying to add new column that is editable 
