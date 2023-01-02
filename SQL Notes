@@ -31,6 +31,7 @@ Some SQL important commands are :
                                                   WHERE condition;
                                     NATURAL join - is structured in such a way that, columns with the same name of associated tables will appear once only.
                                     CROSS JOIN - is used to join everything from the first table and everything from the second table 
+                                    USING - ???
                                     UNION operator - used to combine the result set of two or more of SELECT statements. 
                                     CREATE TABLE - creates a new table
                                     ALTER TABLE - modifies a table
