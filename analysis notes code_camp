@@ -9,7 +9,8 @@ Data analysis process -
                  3. Data wrangling -  rearrange and reshape the data for better analysis. Hierachical data, reshaping and transforming structures 
                  4. Analysis - extract patterns from data that is now clean any shape capturing trends or anomalies. Statistical analysis will be
                  fundimental in this process
-                 5. Action - do something about the analysis. building mechine learning models, feature engineering, building ETL pipelines, Decision making and real life tests.
+                 5. Action - do something about the analysis. building mechine learning models, feature engineering, building ETL pipelines, Decision
+                 making and real life tests.
   
  Dataframe shows how many rows and columns our dataframe has.
  Loc method is used to access data as well as updating it. 
