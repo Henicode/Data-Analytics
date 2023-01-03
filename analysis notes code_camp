@@ -7,7 +7,8 @@ Data analysis process -
                  1. Data extraction - where your data is coming from. SQL, Scrapping, File formats, consulting APIs, .....
                  2. Data Cleaning - missing values and empty data, data imputation(substitution of missing values), incorrect types,
                  incorrect or invalid values
-                 3. Data wrangling -  rearrange and reshape the data for better analysis. Hierachical data, reshaping and transforming structures 
+                 3. Data wrangling - is the process of removing errors and combining complex data sets to make them more accessible and easier to analyze.
+                                      rearrange and reshape the data for better analysis. Hierachical data, reshaping and transforming structures 
                  4. Analysis - extract patterns from data that is now clean any shape capturing trends or anomalies. Statistical analysis will be
                  fundimental in this process
                  5. Action - do something about the analysis. building mechine learning models, feature engineering, building ETL pipelines, Decision
