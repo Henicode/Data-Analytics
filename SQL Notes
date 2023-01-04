@@ -119,11 +119,13 @@ Join Clause Explanation :
                   INNER JOIN StudentCourse                                                   (essentialy saying from students table join with the student course table)
                   ON Student.ROLL_NO = StudentCourse.ROLL_NO;                           (ON is to specify the join conditions, that is, to define how the tables should be joined)
                   The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns.                                                                         ON condition is optional 
-                                                                                          
+                  
+                  --DATA CLEANING ---
 SUBSTRING - 
 CHARINDEX - 
 
-
+PARSNAME - quicker way to break apart the values name in rows. ex. if the valu of the data is the address with all the city and state included,
+           you can us PARSNAME to break them apart by specifying the posion to pick from. 
 
 
 
