@@ -121,6 +121,10 @@ Join Clause Explanation :
                   The INNER JOIN keyword selects all rows from both tables as long as there is a match between the columns.                                                                         ON condition is optional 
                   
                   --DATA CLEANING ---
+                  -- LITTLE ADVANCED SQL -- 
+                  
+CAST - helps convert (for a temporary query time used) the function data from one data type to another. 
+CONVERT - does the same thing as CAST But its restriced for sql use only while CAST is universal. It also acepts a parameter guideline. 
 SUBSTRING - 
 CHARINDEX - 
 
