@@ -1,3 +1,7 @@
+
+
+-- Converting the date value for the sale date --
+
 SELECT SaleDate, CONVERT(date, SaleDate)
 FROM data_clean;
 
