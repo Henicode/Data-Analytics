@@ -1,0 +1,26 @@
+SELECT SaleDate, CONVERT(date, SaleDate)
+FROM data_clean;
+
+UPDATE data_clean
+SET SaleDate = CONVERT(date, SaleDate)
+
+-- property address null or empty values to be assigned as owneraddress
+ 
+ 
+ -- This query joins the same table together using their parcel id and is not the same in their unique id --
+ -- this basically says where their parcel id colum is the same but their row is different 
+ 
+SELECT * 
+FROM data_clean a
+JOIN data_clean b
+ on a.ParcelID = b.ParcelID  
+ AND a.[UniqueID] <> b.[UniqueID]
+
+-- query will identify the rows where they are empty or null values where their columns are the same but have different rows ---
+SELECT * 
+FROM data_clean a
+JOIN data_clean b
+ on a.ParcelID = b.ParcelID  
+ AND a.[UniqueID] <> b.[UniqueID]
+ WHERE a.PropertyAddress = ''
+
