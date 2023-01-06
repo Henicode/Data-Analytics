@@ -69,7 +69,7 @@ WHERE PropertyAddress = ''
     FROM DATA_CLEAN
     GROUP BY SoldAsVacant
     
-    -- using CASE statement, you can reassign the value , in an if and else statment like
+    -- using CASE statement, you can reassign the value of 'y' and 'n' to yes and no , in an if and else statment like
     
     SELECT SoldAsVacant
 		CASE when SoldAsVacant = 'y' THEN 'Yes'
@@ -80,5 +80,40 @@ WHERE PropertyAddress = ''
     
     
     -- removing duplicates --
+    
+    -- Using the PARTION function, you can identify duplicates of rows by specifying the colums they repeat in --  
+    SELECT *,
+        ROW_NUMBER() OVER (
+        PARTITION BY OwnerName,
+					 PropertyAddress, 
+                     OwnerAddress
+                     ORDER BY 
+                     uniqueID) duplicates 
+   FROM data_clean
+   ORDER BY parcelID
+                     
+	-- you can place the select statement above in a CTE expression which is a temporary named result set collected from select statement. --
+    WITH RowNUMCTE AS (
+    SELECT *,
+        ROW_NUMBER() OVER (
+        PARTITION BY OwnerName,
+					 PropertyAddress, 
+                     OwnerAddress
+                     ORDER BY 
+                     uniqueID) duplicates 
+   FROM data_clean
+   )
+   -- using the CTE, we can call and delete all the duplicate rows 
+DELETE
+FROM RowNUMCTE
+where duplicates > 1
+-- order by propertyaddress --
+    
+    -- you can double check they are deleted by calling the CTE function again 
+  SELECT * 
+  FROM RowNUMCTE
+  WHERE duplicates > 1
+  order by propertyaddress
+    
     
     
