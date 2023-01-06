@@ -1,6 +1,10 @@
+-- data cleaning project --
+
+
 
 
 -- Converting the date value for the sale date --
+
 
 SELECT SaleDate, CONVERT(date, SaleDate)
 FROM data_clean;
@@ -21,10 +25,15 @@ JOIN data_clean b
  AND a.[UniqueID] <> b.[UniqueID]
 
 -- query will identify the rows where they are empty or null values where their columns are the same but have different rows ---
-SELECT * 
-FROM data_clean a
+
+SELECT a.ParcelID, a.PropertyAddress, b.ParcelID, b.OwnerAddress, ISnull(a.PropertyAddress, B.OwnerAddress)
+FROM data_clean a                                                     -- ABOVE query will identity the all the null values in the first parameter (PropertyAddress) and replace it with the second parameter (OwnerAddress)
 JOIN data_clean b
  on a.ParcelID = b.ParcelID  
- AND a.[UniqueID] <> b.[UniqueID]
+ AND a.[uniqueID] <> b.[uniqueID] 
  WHERE a.PropertyAddress = ''
-
+  
+             -- Below query updates all the empty values of the property address with the owneraddress 
+update data_clean
+set PropertyAddress = OwnerAddress
+WHERE PropertyAddress = ''
