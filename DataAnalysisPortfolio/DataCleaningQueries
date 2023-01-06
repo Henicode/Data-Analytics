@@ -37,3 +37,48 @@ JOIN data_clean b
 update data_clean
 set PropertyAddress = OwnerAddress
 WHERE PropertyAddress = ''
+
+
+
+   -- Breaking out Address into individual columns (address, city, state) for both the property address and owner address 
+   -- for the property address, since we have replaced some of the empty values into the owner address, they will also contain the state
+   
+   -- using the substring function, you can extract some characters from a string. --
+   -- SUBGSTRING (string, start, length).  STRING to extract from, START position, first position is 1, LENGTH number of characters to extract 
+   SELECT 
+   SUBSTRING(PropertyAddress, 1, CHARINDEX(',', PropertyAddress ) as Address  
+	SUBSTRING(PropertyAddress, CHARINDEX(',', PropertyAddress ) +1, LEN(PropertyAddress)) as street 
+   FROM data_clean;
+
+    -- owner address seperation --
+    -- you can also use PARSNAME to seperate values, it essentially does the same thing but it extracts backwards and also looks for a . dot instead of ,commas --
+    -- with PARSENAME, you can only call up to 3 values. if you call on the 4th positioned value it will output null -- 
+    -- PARSENAME is alot quicker than SUBSTRING. 
+    
+    SELECT 
+		PARSENAME (REPLACE(owneraddress, ',', '.') ,3),
+		PARSENAME (REPLACE(owneraddress, ',', '.') ,2),
+		PARSENAME (REPLACE(owneraddress, ',', '.') ,1)
+    FROM data_clean;
+    
+    
+    
+    -- collecting all the SoldAsVacant values, and collecting the values that differe 
+    
+    SELECT distinct(SoldAsVacant), COUNT(SoldAsVacant)
+    FROM DATA_CLEAN
+    GROUP BY SoldAsVacant
+    
+    -- using CASE statement, you can reassign the value , in an if and else statment like
+    
+    SELECT SoldAsVacant
+		CASE when SoldAsVacant = 'y' THEN 'Yes'
+             when SoldAsVacant = 'n' THEN 'No'
+             ELSE SoldAsVacant 
+             END
+	from data_clean
+    
+    
+    -- removing duplicates --
+    
+    
