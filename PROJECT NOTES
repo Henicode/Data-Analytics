@@ -10,7 +10,11 @@ Project Idea - Make a statistical analysis of messi carrier contribution and mak
                consider making a new type of ballon d'or to reward players that have been consistent with thier talent a recongnition they deserve. 4
                This will create a new motivation way for a selected few to thrive under pressure because they will persue something only the greats
                have achieved. 
-
+- create or extract data to work on .flightData
+- clean the data, any empty values, duplicates, seperating values and so on
+- wrangle the data, any reassigned values, or errors 
+- visualize and analyze the data 
+- make an assesment or hypothesis based on the output 
 PROBLEM RUN INS:
 cannot add 70 random number values into a column due to restriction. need to figure out ..... stuck on trying to add new column that is editable 
 still stuck
