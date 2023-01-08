@@ -128,7 +128,11 @@ Join Clause Explanation :
  Field a single piece of information from a row or column of a spreadsheet.
  Field Length is a tool for determining how many characters can be keyed into a field. 
  Data Validation is a tool for checking the accuracy and quality of data before adding or importing it.
- 
+ Split is a tool that divides text around a specified character and puts each fragment into a new, seperate cell
+  
+  
+ Left - a function that gives you a set number of characters from the left side of a text string 
+ Right - a function that gives you a set of characters from the right side of a text string
 
 
 
