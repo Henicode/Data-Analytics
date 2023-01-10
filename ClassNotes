@@ -21,7 +21,7 @@ Analysis Process -
        .Analyzing and mining data - extracting, analyzing, and manipulating data from different perespectives to understand trends identify
                                      correlations, and find patterns and variations
        .Interpreting results - interpreting results, evaluating defendability of analysis and circumastances under which analysis may not hold true
-       .Presenting your findings - communicating and presenting your findings in clear, imapctful, and convincing ways 
+       .Presenting your findings - communicating and presenting your findings in clear, impactful, and convincing ways 
 
 Cloud computing is the emerging technology that has made it possible for every enterprise to have access to limitless storage and high-performance computing.
                 With cloud computing, businesses can store, manage, and process large amounts of data in a remote, centralized location.  
@@ -32,8 +32,8 @@ Analysis - detailed examination of the elements or structure of something
 Analytics - the systematic computational analysis of data or statistics
 
 
-        WEEK 2
-                                         -- The Data Ecosystem --
+     
+                                        ------------
                                          
   Technical skills - 
                  .Spreadsheets such as Excel and Google Sheets
@@ -62,8 +62,66 @@ Analytics - the systematic computational analysis of data or statistics
                  
           
           
+      WEEK 2 
+                          -- The Data Ecosystem --
           
           
+      A data analyst's ecosystem includes the infrastructure, software, tools, frameworks, and processes used to gather, clean, mine, visualize data.
+      
+      Types of data - 
+                     .Structured data - follows a rigid format and can be organized into rows and columns. - databses, spreadsheets
+                                      - is data that is well organized in formats that can be stored in databses and lends itself to standard data 
+                                         analysis methods and tools
+                     .Semi-structured - mix of data that has consistent characteristics and data that does not corform to a rigid structure. - email
+                                      - is data that is somewhat organized and relies on meta tags for grouping and hierachy
+                     .Unstructured - data that is complex and mostly qualitative information that cannot be structured into rows and columns.  - photo, text files
+                                   - is data that is not conventionally organized in the form of rows and columns in a particular format.
+                                    
+                                    
+      File formats of data - Relational databse, Non-relational database, APIs, Web services, Data streams, Social Platforms, Sensor Devices. 
+      
+      Languages available in data ecosystem : Query (querying and manipulating data), Programming (developing data application),
+                                              Shell and Scripting Languages (repetitive operational tasks).
+                                              
+                                              
+                                              
+                               -- Types of Data -- 
+                               
+           Data comprises of facts, observation, preceptions, numbers, characters, symbols, images that can be interpreted to derive meaning. 
+           
+An API, or application programming interface, is a set of rules and protocols that allows different software systems to communicate with each other.
+ Essentially, an API specifies how software components should interact, and allows developers to access the functionality of another system or service.
+
+Introduction in Data Languages - Query Languages, Programming Languages, Shell Scripting. 
+           
+ Shell and scripting languages are commonly used for automating repetitive operational tasks.
+ API can return data in awide variety of formats such as plain text, XML, HTML, or JSON among others. 
+ Python supports multiple programming paradigms, such as object-orientedm imperative, functional, and procedural, making it suitable for a wide variety of use cases.
+ 
+ 
+ Databse is the collection of data for input, storage, search, retrieval, and modification of data. 
+ DBMB database management system is a set of programs for creating and maintaining the databse, and storing, modifying, and extracting information
+                                 from the database using a quering function.
+                                 
+ Relational database - 
+                      .Data is organized into a tabular format with rows and columns 
+                      .Well-defined structure and shcema 
+                      .Optimized for data operations and querying 
+                      .Use SQL as the standard querying language
+Non-Relational Databases - 
+                      .Emerged in response to the volume, diversity, and speed at which data is being generated today
+                      .Built for speed, flexability, and scale
+                      .Data can be stored in a schema-less form
+                      .Widely used for processing big data 
+
+Data warehouse works as a central repository that merges information coming from disparete sources and consolidates it through the extract,
+               transform, and load process, also known as ETL porcess, into one comprehensive database for analytics and business intelligence. 
+               
+ Data repositories help isolate data and make reporting and analytics more efficient and credible while also serving as a data archive.               
+                      
+                      
+                   
+                   
           
           
           
