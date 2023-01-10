@@ -1,1 +1,27 @@
 
+Data Engineer - knowledge of programming, sound knoqledge of systems and technology architectures, in-depth understanding of rational databases and 
+                non-rantional data stores.
+Data Analyst - Inspect and clean data for derving insights, identify correlations, find patterns, and apply statistical methods to analyze and mine data,
+                visualize data to interpret and present the findings of data analysis. 
+                
+                
+Types of analysis -
+                    Descriptive Analytics which provides insights into past events 
+                    Diagnostic Analytics takes the insights from descrptive analytics to dig deeper to find the cause of the outcome
+                    Predictive Analytics leverages historical data and trends to predict future outcomes
+                    Prescriptive Analytics analyzes past decisions and events to estimate the likelihood of different outcomes.
+                    
+Analysis Process - 
+       .Understanding the problem and desired result - defining where you are and where you want to be
+       .Setting a clear metric - deciding what will be measured and how it will be measured 
+       .Gathering data - identifying data you require, the sources from which you will access this data, and the best tool for the job
+       .Cleaning data - fixing quality issues in the data and standardizing data coming in from multiple sources
+       .Analyzzing and mining data - extracting, analyzing, and manipulating data from different perespectives to understand trends identify
+                                     correlations, and find patterns and variations
+       .Interpreting results - interpreting results, evaluating defendability of analysis and circumastances under which analysis may not hold true
+       .Presenting your findings - communicating and presenting your findings in clear, imapctful, and convincing ways 
+  
+  
+Analysis - detailed examination of the elements or structure of something
+
+Analytics - the systematic computational analysis of data or statistics
