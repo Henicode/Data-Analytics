@@ -113,14 +113,35 @@ Non-Relational Databases -
                       .Built for speed, flexability, and scale
                       .Data can be stored in a schema-less form
                       .Widely used for processing big data 
-
+Key Differences 
+                Relational databases - 
+                                      .RDBMS schemas rigidly define how all data inserted into the database must be typed and composed
+                                      .Maintaining high-end, commercial relational database management systems can be expensive
+                                      .Support ACID-compliance, which ensures reliablility of transactions and crash recovery
+                                      .A mature and well-documented technology, which means the risks are more or less perceivable
+                Non-Relationa database - 
+                                      .NoSQL databases can be schema-agnostic, allowing unstructured and semi-structured data to be stored and manipulated
+                                      .Specifically designed for low-cost commodity hardware
+                                      .Most NoSQL databases are not ACID compliant 
+                                      .A relatively newer technology 
+                                      
+                                      
 Data warehouse works as a central repository that merges information coming from disparete sources and consolidates it through the extract,
-               transform, and load process, also known as ETL porcess, into one comprehensive database for analytics and business intelligence. 
+               transform, and load process, also known as ETL process, into one comprehensive database for analytics and business intelligence. 
                
- Data repositories help isolate data and make reporting and analytics more efficient and credible while also serving as a data archive.               
-                      
-                      
-                   
+ Data repositories help isolate data and make reporting and analytics more efficient and credible while also serving as a data archive.   
+ 
+  The different types of Data Repositories include: 
+            .Databases, which can be relational or non-relational, each following a set of organizational principles, the types of data they can store,
+             and the tools that can be used to query, organize, and retrieve data.
+            .Data Warehouses, that consolidate incoming data into one comprehensive storehouse.  
+            .Data Marts, that are essentially sub-sections of a data warehouse, built to isolate data for a particular business function or use case. 
+            .Data Lakes, that serve as storage repositories for large amounts of structured, semi-structured, and unstructured data in their
+             native format. 
+            .Big Data Stores, that provide distributed computational and storage infrastructure to store, scale, and process very large data sets.                    
+
+  Dopcument-based NoSQL database store each record and its associated data within a single document and work well with Analytics plateforms.
+  
                    
           
           
