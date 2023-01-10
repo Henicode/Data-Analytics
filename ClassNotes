@@ -140,9 +140,12 @@ Data warehouse works as a central repository that merges information coming from
              native format. 
             .Big Data Stores, that provide distributed computational and storage infrastructure to store, scale, and process very large data sets.                    
 
-  Dopcument-based NoSQL database store each record and its associated data within a single document and work well with Analytics plateforms.
+  Document-based NoSQL database store each record and its associated data within a single document and work well with Analytics plateforms.
   
-                   
+ 
+ 
+ WEEK 3 
+          
           
           
           
