@@ -198,7 +198,14 @@ Data warehouse works as a central repository that merges information coming from
                        3. Validation : checking the quality of data after structuring, normalizing, denormalizing, cleaning, and enriching of data
                                        verifying consistency, quality, and security of data. 
                        4. Publishing : delivering the output of the wrangled data for downstream project needs. 
-          
+                       
+A variety of software and tools are available for the Data Wrangling process. Some of the popularly used ones include Excel Power Query,
+Spreadsheets, OpenRefine, Google DataPrep, Watson Studio Refinery, Trifacta Wrangler, Python, and R, each with their own set of characteristics,
+strengths, limitations, and applications. 
+    
+    Data cleaning is a subset of data wrangling which falls under the transformation step.
+              some issuse are: Missing values, duplicates, irrelevant, syntex error, outliers
+                              
           
           
           
