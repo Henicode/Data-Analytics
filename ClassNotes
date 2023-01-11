@@ -206,7 +206,44 @@ strengths, limitations, and applications.
     Data cleaning is a subset of data wrangling which falls under the transformation step.
               some issuse are: Missing values, duplicates, irrelevant, syntex error, outliers
                               
-          
+   
+   
+   WEEK 4
+            -- analyzing and mining data --
+            
+     Statistics is a branch of mathematics dealing with the collection, analysis, interpretation, and presentation of numerical or quantitative data.
+     
+     Statistical analysis is the application of statistical methods to a sample of data in order to develop an understanding of what that data represents.
+                 Sample - is a representative selection drawn from a total population.
+                 Population - is a discrete group of people or things that can be identified by at least one common characteristic for purposes of data
+                              collection and analysis.
+                              
+    Type of statistics : 
+                        .Descriptive statistics - summarizing information about the sample. 
+                                                - objective is to make it easier to understand and visualize data without making conclusions regarding
+                                                  any hypotheses that were made.
+                                                - Measures of Descriptive stats are :
+                                                           1. Central tendency - locating the center of a data sample. EX. Mean(avg), Median(middle set), and Mode(most common).
+                                                           2. Dispersion - the mesure of variablility in a dataset. 
+                                                                           EX. Variance - how far away the data point fall from the center
+                                                                               Standard Deviation - how tightly your data is clustered aroudn the mean
+                                                                               Range - the distance between the samllest and larges values in datasets.
+                                                           3. Skewness - the measure of whether the distribution of values is symmetrical around a central 
+                                                                         value or skewed left or right.
+                        .Inferential statistics - making inference or generalizaiton about the broad population 
+                                                - Methods of IS :
+                                                                 .Hypothesis testing
+                                                                 .Confidence intervals
+                                                                 .Regression analysis 
+                                                                 
+                                                             
+ Data Mining :
+              The process of extracting knowledge from data
+              An interdisciplinary field that involves the use of pattern recognition technologies, statistical analysis, and mathematical techaniques
+              Aims to identify correlations in data, find patterns and variations, understand trends, and predics probabilities 
+              
+                        
+   
           
           
           
