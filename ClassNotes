@@ -182,9 +182,22 @@ Data warehouse works as a central repository that merges information coming from
        Third-party data refers to data purchased from aggregators who collect data from various sources and combine it into comprehensive 
                    datasets for purpose of selling the data. Online campaigns, research companies, social media plugins, publishers. 
                    
-                   
-          
-          
+            -- Data Wrangline --
+            
+    Data wrangline, also known as data munging, is an iterative process that involes data exploration, transformation, validation, 
+                    and making it available for a credible and meaningful analysis.
+                    
+     Wrangling exploration phase:
+                        1. Discovery : examining and understanding your data with respect to your use case
+                                       creating a plan for cleaning, structuring, organizing, and mapping your data.
+                        2. Transformation : Structured - actions that change the form and schema of your data. JOINS(comb columns) and UNIONS(comb rows) 
+                                            Normalizing data - cleaning unused data, reducing redundancy, reducing incosistency 
+                                            denormalizing data - combining data from multiple tables into a single table for fast querying 
+                                            Cleaning data - fixing irregularities in data in order to produce a credible and accurate analysis 
+                                            Enriching data - adding data points that make your analysis more meaningful. combinign tables for more info
+                       3. Validation : checking the quality of data after structuring, normalizing, denormalizing, cleaning, and enriching of data
+                                       verifying consistency, quality, and security of data. 
+                       4. Publishing : delivering the output of the wrangled data for downstream project needs. 
           
           
           
