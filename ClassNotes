@@ -188,7 +188,7 @@ Data warehouse works as a central repository that merges information coming from
                     and making it available for a credible and meaningful analysis.
                     
      Wrangling exploration phase:
-                        1. Discovery : examining and understanding your data with respect to your use case
+                        1. Discovery : examining and understanding your data 
                                        creating a plan for cleaning, structuring, organizing, and mapping your data.
                         2. Transformation : Structured - actions that change the form and schema of your data. JOINS(comb columns) and UNIONS(comb rows) 
                                             Normalizing data - cleaning unused data, reducing redundancy, reducing incosistency 
@@ -199,6 +199,7 @@ Data warehouse works as a central repository that merges information coming from
                                        verifying consistency, quality, and security of data. 
                        4. Publishing : delivering the output of the wrangled data for downstream project needs. 
                        
+                     
 A variety of software and tools are available for the Data Wrangling process. Some of the popularly used ones include Excel Power Query,
 Spreadsheets, OpenRefine, Google DataPrep, Watson Studio Refinery, Trifacta Wrangler, Python, and R, each with their own set of characteristics,
 strengths, limitations, and applications. 
