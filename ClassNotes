@@ -243,7 +243,21 @@ strengths, limitations, and applications.
               An interdisciplinary field that involves the use of pattern recognition technologies, statistical analysis, and mathematical techaniques
               Aims to identify correlations in data, find patterns and variations, understand trends, and predics probabilities 
               
-                        
+  
+  Data visualization is the communication of information through visual elements like graphs, charts ext to make it easy to comprehend, interept,
+                     and retain.
+                     
+  Commonly used visualization satware and tools include:
+      .Spreadsheets - commonly used software for gpahical representation of data sets
+      .Jupyter notbook - an open-source web application tha provides a way to explore data and create visualizations.
+      .Python librares - libraries like Matplotlib help create high-quality interactive graphs and plots with few codes. different kinds of 2D AND 3D plots
+                       - Bokeh provides interactive charts and plots. delivers high-performace interactivity over large datasets. can transform visuals writeen in other python libraries
+                       - Dash is a python framework to create interacive web-based visualizations. it easily maintainable, cross-platform, mobile-ready.
+      .R-studio - helps creat basic(bar charts, line chart,ext) and advanced visualizations(head maps, mosaic maps, 3D graphs). 
+      .R-shiny - its an R package that helps build interactive web apps that can be hosted as standalone apps on webpages. easy to use
+      .IBM cognos analytics - an end-to-end analytics solution. can import custom visualizations, recommend visuals based on data.
+      .Tableau - software company that produces interactive data visualization products. can publish results in the form of stories, also has the option to import R and Python scripts
+      .Power BI - cloud-based analytics service from microsoft that enables you to create reports and dashboards. its a powerful and flexible with high speed and efficiency. compatible with excel, sql, cloud-based reporsitories
    
           
           
