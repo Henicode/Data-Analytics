@@ -1,4 +1,7 @@
+COURSE 2
+WEEK 1
 
+------------------------------------------------------------
 Task =>	Shortcut
 Close a workbook =>	Ctrl+W
 Open a workbook =>	Ctrl+O
@@ -29,3 +32,13 @@ Move to the previous sheet in a workbook =>	Ctrl+Page Up
 Edit the active cell and put the cursor at the end of the cell’s contents =>	F2
 Enter the current time =>	Ctrl+Shift+colon (:)
 Enter the current date =>	Ctrl+semi-colon (;)
+------------------------------------------------------------
+
+.There are several spreadsheet applications available in the marketplace; the most commonly used and fully-featured spreadsheet application is Microsoft Excel. 
+.Spreadsheets provide several advantages over manual calculation methods and they help you keep data organized and easily accessible. 
+.As a Data Analyst, you can use spreadsheets as a tool for your data analysis tasks. 
+.There are several elements that make up a workbook in a spreadsheet application. 
+.The ribbon provides access to all the features and tools required to view, enter, edit, manipulate, clean, and analyze data in Excel. 
+.There are several ways to navigate around a worksheet and workbook in Excel. 
+
+
