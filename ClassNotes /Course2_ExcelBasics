@@ -1,7 +1,8 @@
 COURSE 2
-WEEK 1
 
 ------------------------------------------------------------
+WEEK 1
+
 Task =>	Shortcut
 Close a workbook =>	Ctrl+W
 Open a workbook =>	Ctrl+O
@@ -32,7 +33,6 @@ Move to the previous sheet in a workbook =>	Ctrl+Page Up
 Edit the active cell and put the cursor at the end of the cell’s contents =>	F2
 Enter the current time =>	Ctrl+Shift+colon (:)
 Enter the current date =>	Ctrl+semi-colon (;)
-------------------------------------------------------------
 
 .There are several spreadsheet applications available in the marketplace; the most commonly used and fully-featured spreadsheet application is Microsoft Excel. 
 .Spreadsheets provide several advantages over manual calculation methods and they help you keep data organized and easily accessible. 
@@ -42,6 +42,7 @@ Enter the current date =>	Ctrl+semi-colon (;)
 .There are several ways to navigate around a worksheet and workbook in Excel. 
 
 ------------------------------------------------------------
+WEEK 2
 
 .You can move or copy data within a worksheet or between worksheets, and you can use AutoFill to automatically enter data that is in a series or that fits a pattern. 
 .You can format both cells and data in Excel. 
@@ -51,5 +52,39 @@ Enter the current date =>	Ctrl+semi-colon (;)
 .You can reference cells in the worksheet in your formulas by using relative, absolute, or mixed references. 
 .You can make a formula absolute by adding a dollar symbol ($) to a cell reference. 
 .If you get errors in your formulas, you can use the error-checking capabilities of Excel to resolve them.
+
+
+------------------------------------------------------------
+WEEK 3
+
+
+Traits of clean data
+.Accuracy
+.Completeness 
+.Timeliness
+.Reliability
+.Relevance 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
