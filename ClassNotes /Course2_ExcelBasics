@@ -105,7 +105,14 @@ Advantages to formatting your data as a table:
 - Sorting data helps you to organize it by a specified criteria, such as numerically, alphabetically, or chronologically. 
 - Filtering our data makes it easier to control what data is displayed and what is hidden, based on filtered fields. 
 
-Pivot tables provide a simple and quick way to summarize and analyze data, to observe trends and patterns in data and to make data comparisons. 
+
+Pivot Tables:
+.To obtain usable and presentable insights into your data you need to use Pivot Tables. 
+.Pivot tables provide a simple and quick way to summarize and analyze data, to observe trends and patterns in your data and to make comparisons of your data. 
+.Pivot tables are dynamic, so as you change and add data to the original dataset on which the pivot table is based, the analysis and summary information changes too. 
+.A Data Analyst can use pivot tables to draw useful and relevant conclusions about, and create insights into, an organization’s data in order to present those insights to interested parties within the company. 
+
+
 
 
 
