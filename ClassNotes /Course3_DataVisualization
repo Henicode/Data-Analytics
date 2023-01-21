@@ -25,10 +25,35 @@ Treemaps :
              
 Scatter :
         .compare statistical, scientific, and engineering data values
+            
+- Difference between a histogram and bar chart is, bar charts comapre data and histograms display the distribution of data
              
-             
-             
-             
+---------------------------------------------------------
+
+WEEK2
+
+Benefits of a dashboard:
+          .Offers insights into your data
+          .Can alert you to trends and patterns
+          .Provide an interactive experience using filters
+          .Are dynamically updated as data changes
+          .Provides a centralized consolidated view of a buisness data
+          
+Before creating a dashboard:
+          .Collect and organize data
+          .Verify your data is clean, error-free, has no blank rows or columns
+          .Format your data as a table
+          .Create pivot tables
+          .Create several visualizations to populate your dashboard with chars, maps, slicers, exct....
+          
+          
+          
+          
+          
+          
+          
+          
+          
              
              
              
