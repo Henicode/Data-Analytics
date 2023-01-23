@@ -43,6 +43,29 @@ Azure Arc is a set of technologies that helps manage your cloud environment
 Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
 
 
+There are two types of IT Infranstructure models, Capital expenditure (CapEX) and Operational expenditure (OpEx)
+CapEx is typically a one-time, up-front expenditure to purchase or secure tangible resources.
+       A new building, repaving the parking lot, building a datacenter, or buying a company vehicle are examples of CapEx.
+OpEx is spending money on services or products over time.
+       Renting a convention center, leasing a company vehicle, or signing up for cloud services are all examples of OpEx.
+
+Cloud computing falls under OpEx because cloud computing operates on a consumption-based model.
+   With this cosumption-based model, it has benefits including :                    
+                                            .No upfront costs.
+                                            .No need to purchase and manage costly infrastructure that users might not use to its fullest potential.
+                                            .The ability to pay for more resources when they're needed.
+                                            .The ability to stop paying for resources that are no longer needed.
+
+Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model.
+You typically pay only for the cloud services you use, which helps you:
+                                                                  .Plan and manage your operating costs.
+                                                                  .Run your infrastructure more efficiently.
+                                                                  .Scale as your business needs change.
+
+
+In conclusion, cloud computing is a way to rent compute power and storage from someone else’s datacenter.
+You can treat cloud resources like you would resources in your own datacenter.
+However, unlike in your own datacenter, when you're done using cloud resources, you give them back. You’re billed only for what you use.
 
 
 
