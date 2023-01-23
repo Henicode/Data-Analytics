@@ -1,1 +1,50 @@
 
+Cloud computing is the delivery of computing services over the internet.
+Computing services include common IT infrastructure such as virtual machines, storage, databases, and networking.
+
+You’ll always be responsible for:
+.The information and data stored in the cloud
+.Devices that are allowed to connect to your cloud (cell phones, computers, and so on)
+.The accounts and identities of the people, services, and devices within your organization
+
+The cloud provider is always responsible for:
+.The physical datacenter
+.The physical network
+.The physical hosts
+
+Your service model will determine responsibility for things like:
+.Operating systems
+.Network controls
+.Applications
+.Identity and infrastructure
+
+The cloud models define the deployment type of cloud resources. The three main cloud models are: private, public, and hybrid.
+
+
+Public Cloud : A public cloud is built, controlled, and maintained by a third-party cloud provider. 
+           .No capital expenditures to scale up
+           .Applications can be quickly provisioned and deprovisioned
+           .Organizations pay only for what they use	
+           .Organizations don’t have complete control over resources and security	
+Private Cloud : A private cloud is a type of cloud computing infrastructure that is dedicated to a single organization. 
+           .Organizations have complete control over resources and security
+           .Data is not collocated with other organizations’ data	
+           .Hardware must be purchased for startup and maintenance	
+           .Organizations are responsible for hardware maintenance and updates	
+Hybrid Cloud : A hybrid cloud is a computing environment that uses both public and private clouds in an inter-connected environment.
+           .Provides the most flexibility
+           .Organizations determine where to run their applications
+           .Organizations control security, compliance, or legal requirements
+
+A fourth, and increasingly likely scenario is a multi-cloud scenario. In a multi-cloud scenario, you use multiple public cloud providers.
+Regardless, in a multi-cloud environment you deal with two (or more) public cloud providers and manage resources and security in both environments.
+
+Azure Arc is a set of technologies that helps manage your cloud environment
+Azure VMware Solution lets you run your VMware workloads in Azure with seamless integration and scalability.
+
+
+
+
+
+
+
