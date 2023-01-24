@@ -67,6 +67,25 @@ In conclusion, cloud computing is a way to rent compute power and storage from s
 You can treat cloud resources like you would resources in your own datacenter.
 However, unlike in your own datacenter, when you're done using cloud resources, you give them back. You’re billed only for what you use.
 
+                               ---------------------------------------------------------
+Scalability - the ability to increase or decrease resources for a given workload. 
+Reliability - the ability of a system to recover from failures and continue to function.
+Predictability - refers to the ability to plan for and manage the performance and capacity of a cloud service or application.
+  In other words, reliability is about the system being up and running, whereas predictability is about being able to predict the system performance
+  and capacity usage.
+
+                              ---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
