@@ -76,8 +76,14 @@ Predictability - refers to the ability to plan for and manage the performance an
 
                               ---------------------------------------------------------
 
+IaaS(Infrastructure as a service) provides virtualized computing resources, such as servers and storage, over the internet. 
+      Examples of IaaS providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
 
+PaaS(Platform as a service) provides a platform for developing, running, and managing applications over the internet. 
+      Examples of PaaS providers include AWS Elastic Beanstalk, Azure App Service, and Google App Engine.
 
+SaaS(Software as a service) provides access to software applications over the internet. 
+     Examples of SaaS providers include Salesforce, Microsoft Office 365, and Google G Suite.
 
 
 
