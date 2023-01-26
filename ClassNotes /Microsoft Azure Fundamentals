@@ -214,13 +214,23 @@ Azure virtual networking supports both public and private endpoints to enable co
            .Public endpoints have a public IP address and can be accessed from anywhere in the world.
            .Private endpoints exist within a virtual network and have a private IP address from within the address space of that virtual network.
 
+You'll want to enable Azure resources to communicate securely with each other. You can do that in one of two ways:
+           .Virtual networks can connect not only VMs but other Azure resources, such as the App Service Environment for Power Apps,
+              Azure Kubernetes Service, and Azure virtual machine scale sets.
+           .Service endpoints can connect to other Azure resource types, such as Azure SQL databases and storage accounts. 
+              This approach enables you to link multiple Azure resources to virtual networks to improve security and provide optimal routing
+              between resources.
 
+Communicate with on-premises resources refers to the ability of cloud-based systems, such as Azure Functions, to securely connect and interact
+              with resources that are located on a customer's own physical premises, rather than in a cloud-based environment.
 
-
-
-
-
-
+There are three mechanisms for you to achieve this connectivity:
+           .Point-to-site virtual private network connections are from a computer outside your organization back into your corporate network.
+                In this case, the client computer initiates an encrypted VPN connection to connect to the Azure virtual network.
+           .Site-to-site virtual private networks link your on-premises VPN device or gateway to the Azure VPN gateway in a virtual network.
+                In effect, the devices in Azure can appear as being on the local network. The connection is encrypted and works over the internet.
+           .Azure ExpressRoute provides a dedicated private connectivity to Azure that doesn't travel over the internet.
+                ExpressRoute is useful for environments where you need greater bandwidth and even higher levels of security.
 
 
 
