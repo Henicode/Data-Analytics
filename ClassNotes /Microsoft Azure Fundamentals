@@ -181,14 +181,15 @@ Some common examples or use cases for virtual machines include:
            you can get significant cost savings by using an IaaS-based approach to disaster recovery. If a primary datacenter fails, you can create VMs running
            on Azure to run your critical applications and then shut them down when the primary datacenter becomes operational again.
 
+Azure Virtual Desktop is a desktop and application virtualization service that runs on the cloud. 
+      It enables you to use a cloud-hosted version of Windows from any location.
 
-
-
-
-
-
-
-
+Containers are a virtualization environment. Much like running multiple virtual machines on a single physical host, you can run multiple containers
+           on a single physical or virtual host. Containers are designed to allow you to respond to changes on demand. 
+           With containers, you can quickly restart if there's a crash or hardware interruption. One of the most popular container engines is Docker
+          
+Azure Container Instances offer the fastest and simplest way to run a container in Azure; without having to manage any virtual machines or adopt any 
+                 additional services. Azure Container Instances are a platform as a service (PaaS) offering.
 
 
 
