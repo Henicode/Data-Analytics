@@ -1,0 +1,8 @@
+CREATING A VM IN CLOUD SHELL 
+
+  az vm create \
+  --resource-group xxxxresourcegroup \
+  --name vm-namehere \
+  --image UbuntuLTS \
+  --admin-user username \
+  --generate-ssh-keys
