@@ -232,11 +232,24 @@ There are three mechanisms for you to achieve this connectivity:
            .Azure ExpressRoute provides a dedicated private connectivity to Azure that doesn't travel over the internet.
                 ExpressRoute is useful for environments where you need greater bandwidth and even higher levels of security.
 
+Azure DNS leverages the scope and scale of Microsoft Azure to provide numerous benefits, including:
+                     . Reliability and performance - provide resiliency and high availability.                    
+                     . Security - provides features such as:
+                                                           1. Azure role-based access control (Azure RBAC) to control who has access to specific
+                                                              actions for your organization.
+                                                           2. Activity logs to monitor how a user in your organization modified a resource or
+                                                              to find an error when troubleshooting.
+                                                           3. Resource locking to lock a subscription, resource group, or resource.
+                                                              Locking prevents other users in your organization from accidentally deleting or
+                                                              modifying critical resources.
+                     . Ease of Use - Azure DNS can manage DNS records for your Azure services and provide DNS for your external resources as well 
+                     . Customizable virtual networks - This feature allows you to use your own custom domain names in your private virtual networks                    
+                     . Alias records - You can use an alias record set to refer to an Azure resource, such as an Azure public IP address,
+                                        an Azure Traffic Manager profile, or an Azure Content Delivery Network (CDN) endpoint.
 
-
-
-
-
+Important*
+( You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a domain name by using App Service domains
+or a third-party domain name registrar. Once purchased, your domains can be hosted in Azure DNS for record management. )
 
 
 
