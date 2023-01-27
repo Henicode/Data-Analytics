@@ -112,7 +112,7 @@ THE CORE ARCHITECTURAL COMPONENET OF AZURE
            2. Zone-redundant services: The platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
            3. Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
 
-Region pair is a combination of two regions that are connected with low-latency, high-throughput network connections.
+Region pair is a combination of two regions that are connected with low-latency, high-throughput network connections within 300 miles.
   These region pairs are designed to provide a high-availability and disaster recovery solution for applications and data that need to be replicated 
   across regions.
 Additional advantages of region pairs:
