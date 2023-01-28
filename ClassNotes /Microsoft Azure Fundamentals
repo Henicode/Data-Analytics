@@ -46,7 +46,7 @@ Azure VMware Solution lets you run your VMware workloads in Azure with seamless 
 There are two types of IT Infranstructure models, Capital expenditure (CapEX) and Operational expenditure (OpEx)
 CapEx is typically a one-time, up-front expenditure to purchase or secure tangible resources.
        A new building, repaving the parking lot, building a datacenter, or buying a company vehicle are examples of CapEx.
-OpEx is spending money on services or products over time.
+OpEx is spending money on services or products over time. pay-as-you-go
        Renting a convention center, leasing a company vehicle, or signing up for cloud services are all examples of OpEx.
 
 Cloud computing falls under OpEx because cloud computing operates on a consumption-based model.
@@ -250,6 +250,49 @@ Azure DNS leverages the scope and scale of Microsoft Azure to provide numerous b
 Important*
 ( You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a domain name by using App Service domains
 or a third-party domain name registrar. Once purchased, your domains can be hosted in Azure DNS for record management. )
+
+
+                                 ---------------------------------------------------------
+DESCRIBE AZURE MANAGEMENT AND GOVERNANCE 
+
+     COST MANAGEMENT IN AZURE
+
+
+That OpEx cost can be impacted by many factors. Some of the impacting factors are:
+     .Resource type - a manageable item that represents an azure service. 
+     .Consumption - cloud payment model where you pay for the resources that you use during a billing cycle                                                      
+     .Maintenance - process that includes updates, patches, and infrastructure improvements to keep Azure services running smoothly and securely.                                               
+     .Geography - costs can vary based on the location of the data center hosting the service, taxes, and compliance regulations, tax,
+                  and network traffic(cost of transfering service depending on location distance).     
+     .Subscription type - Some Azure subscription types also include usage allowances, which affect costs.     
+     .Azure Marketplace - lets you purchase resources from third-party vendors which affects operational expenditure 
+
+
+The pricing calculator and the total cost of ownership (TCO) calculator are two calculators that help you understand potential Azure expenses. 
+
+-Pricing calculator - designed to give you an estimate cost for provisoing resources in azure. 
+                    - for impormation purpose only, price estimates.Nothing is provisioned when you add resources to calculator
+-Total cost of ownership calculator - designed to help you compare the cost for running na op-premises infrasture compared to an azure cloud
+                                       infrastructure.
+ The main difference is pricing calculator aloows you to estimate the cost of using a specific service, whereas TCO helps you estimate the overal cost
+  ownership of serveice or product over a certain period of time. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
