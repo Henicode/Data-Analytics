@@ -272,10 +272,45 @@ The pricing calculator and the total cost of ownership (TCO) calculator are two 
 
 -Pricing calculator - designed to give you an estimate cost for provisoing resources in azure. 
                     - for impormation purpose only, price estimates.Nothing is provisioned when you add resources to calculator
--Total cost of ownership calculator - designed to help you compare the cost for running na op-premises infrasture compared to an azure cloud
+-Total cost of ownership calculator - designed to help you compare the cost for running na op-premises infanstructure  compared to an azure cloud
                                        infrastructure.
- The main difference is pricing calculator aloows you to estimate the cost of using a specific service, whereas TCO helps you estimate the overal cost
-  ownership of serveice or product over a certain period of time. 
+ The main difference is pricing calculator allows you to estimate the cost of using a specific service, whereas TCO helps you estimate the overal cost
+  ownership of serveice or product compared to other infanstructure over a certain period of time. 
+
+Cost Management provides the ability to quickly check Azure resource costs, create alerts based on resource spend, and create budgets 
+                that can be used to automate management of resources.
+Cost analysis  provides a quick visual for your Azure costs that include different filtering system like billing cycle, region, resource.
+Cost alert is a trigger that notifies when cost of resource exceed a specified threshold.
+            There are three main alerts :
+                   .Budget alerts - notify you when spending reaches or exceeds the amount defined in the alert condition of the budget.                   
+                   .Credit alerts - notify you when your Azure credit monetary commitments (set amout of money user can spend on services) are consumed.                    
+                   .Department spending quota alert - notify you when department spending reaches a fixed threshold of the quota.
+
+
+One way to organize related resources is to place them in their own subscriptions.
+Another way is by Resource tags to help organize resources. Tags provide extra information, or metadata, about your resources.
+This metadata is useful for:
+           .Resource management - Tags enable you to locate and act on resources that are associated with specific workloads, 
+                                 environments, business units, and owners.
+           .Cost management and optimization - Tags enable you to group resources so that you can report on costs, allocate internal cost centers,
+                                 track budgets, and forecast estimated cost.
+           .Operations management - Tags enable you to group resources according to how critical their availability is to your business. 
+                                 This grouping helps you formulate service-level agreements (SLAs). An SLA is an uptime or performance guarantee
+                                 between you and your users.
+           .Security - Tags enable you to classify data by its security level, such as public or confidential.
+           .Governance and regulatory compliance - Tags enable you to identify resources that align with governance or 
+                                 regulatory compliance requirements
+                                 For example, you might require that all resources be tagged with an owner or department name.
+           .Workload optimization and automation - Tags can help you visualize all of the resources that participate in complex deployments.
+                                 For example, you might tag a resource with its associated workload or application name and use software such 
+                                 as Azure DevOps to perform automated tasks on those resources.
+
+You can add, modify, or delete resource tags through Windows PowerShell, the Azure CLI, Azure Resource Manager templates,
+    the REST API, or the Azure portal.
+
+
+
+
 
 
 
