@@ -329,7 +329,55 @@ These are list of redundancy options :
      .Read-access geo-zone-redundant storage (RA-GZRS) -
      .Read-access geo-redundant storage (RA-GRS)
 
+The Azure Storage platform includes the following data services:
+   Azure Blobs: A massively scalable object store for text and binary data. Also includes support for big data analytics through Data Lake Storage Gen2.
+   Azure Files: Managed file shares for cloud or on-premises deployments.
+   Azure Queues: A messaging store for reliable messaging between application components.
+   Azure Disks: Block-level storage volumes for Azure VMs.
 
+Azure Storage service benefits : 
+Durable and highly available Redundancy - ensures that your data is safe if transient hardware failures occur. 
+                                          Data replicated in this way remains highly available if an unexpected outage occurs.
+Secure - All data written to an Azure storage account is encrypted by the service. 
+Scalable -  Storage is designed to be massively scalable to meet the data storage and performance needs of today's applications.
+Managed -  handles hardware maintenance, updates, and critical issues for you.
+Accessible - Data in Azure Storage is accessible from anywhere in the world over HTTP or HTTPS. 
+
+
+BLOG Storage(Binary large object)- object storage solution for the cloud. It can store massive amounts of unstructured (no restriction of data type) data, 
+                           such as images, videos, audio, backups, and documents.
+
+Blob storage is ideal for:
+           Serving images or documents directly to a browser.
+           Storing files for distributed access.
+           Streaming video and audio.
+           Storing data for backup and restore, disaster recovery, and archiving.
+           Storing data for analysis by an on-premises or Azure-hosted service.
+
+
+Azure Storage offers different access tiers for your blob storage, helping you store object data in the most cost-effective manner. 
+The available access tiers include:
+           Hot access tier: Optimized for storing data that is accessed frequently 
+                            (for example, images for your website).
+           Cool access tier: Optimized for data that is infrequently accessed and stored for at least 30 days 
+                            (for example, invoices for your customers).
+           Archive access tier: Appropriate for data that is rarely accessed and stored for at least 180 days, with flexible latency requirements
+                    (for example, long-term backups).
+
+Azure Files is a feature of Azure Blob Storage that allows you to create a fully managed file share in the cloud, using the 
+                 standard SMB protocol (Server Message Block) or NFS (Network File System) protocol.
+
+Azure file key benefits :
+Shared access: you can seamlessly replace your on-premises file shares with Azure file shares without worrying about application compatibility.
+Fully managed: Azure file shares can be created without the need to manage hardware or an OS.
+Scripting and tooling: PowerShell cmdlets and Azure CLI can be used to create, mount, and manage Azure file shares as part of the administration of 
+                       Azure applications. 
+Resiliency: Azure Files has been built from the ground up to always be available. 
+Familiar programmability: Applications running in Azure can access data in the share via file system I/O APIs. 
+                          Developers can therefore leverage their existing code and skills to migrate existing applications.
+                          In addition to System IO APIs, you can use Azure Storage Client Libraries or the Azure Storage REST API.
+
+Azure Queue Storage is a service for storing large numbers of messages
 
 
 
