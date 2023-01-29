@@ -391,6 +391,79 @@ Azure Storage Explorer is a standalone app that provides a graphical interface t
 Azure File Sync is a tool that lets you centralize your file shares in Azure Files and keep the flexibility, performance, and 
                 compatibility of a Windows file server
 
+IDENTITY, ACCESS, AND SECURITY 
+
+
+Azure Active Directory (Azure AD) is a directory service that enables you to sign in and access both Microsoft cloud applications and cloud applications
+                                  that you develop.
+Azure AD can detect sign-in attempts from unexpected locations or unknown devices.
+Azure AD is used by : 
+                     IT administrators
+                     App developers 
+                     Users 
+                     Online service subscribers 
+                     
+Azure AD provides services such as:
+        Authentication: This includes verifying identity to access applications and resources
+        Single sign-on: Single sign-on (SSO) enables you to remember only one username and one password to access multiple applications.
+        Application management: You can manage your cloud and on-premises apps by using Azure AD. 
+        Device management: Azure AD supports the registration of devices. Registration enables devices to be managed through tools like Microsoft Intune. 
+
+Azure AD Connect synchronizes user identities between on-premises Active Directory and Azure AD.
+Azure Active Directory Domain Services is a service that provides managed domain services such as domain join, group policy, LDAP, 
+                                       and Kerberos/NTLM authentication for Azure AD joined devices.
+
+Authentication is the process of establishing the identity of a person, service, or device.
+               It requires the person, service, or device to provide some type of credential to prove who they are. 
+
+Single sign-on (SSO) enables a user to sign in one time and use that credential to access multiple resources and applications from different providers.
+
+Multifactor authentication is the process of prompting a user for an extra form (or factor) of identification during the sign-in process. 
+           These elements fall into three categories:
+                      Something the user knows – this might be a challenge question.
+                      Something the user has – this might be a code that's sent to the user's mobile phone.
+                      Something the user is – this is typically some sort of biometric property, such as a fingerprint or face scan.
+
+Azure AD Multi-Factor Authentication is a Microsoft service that provides multifactor authentication capabilities. 
+
+Microsoft global Azure and Azure Government offer the following three passwordless authentication options that integrate with
+    Azure Active Directory (Azure AD):
+           Windows Hello for Business - biometric authentication feature in Windows 10 that allows users to log in to their devices using facial recognition, 
+                                        fingerprint scanning, or a PIN, providing a more secure and convenient alternative to traditional passwords.         
+           Microsoft Authenticator app - a mobile app that provides multi-factor authentication for signing in to Microsoft services and other supported apps 
+                                         and websites, using push notifications, biometric verification, and/or time-based one-time passcodes.           
+           FIDO2 security keys - a form of hardware-based authentication that uses public key cryptography to provide secure, passwordless authentication
+                                 to websites and other online services that support the FIDO2 standard.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
