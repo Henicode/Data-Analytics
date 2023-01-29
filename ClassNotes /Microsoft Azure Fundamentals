@@ -435,12 +435,16 @@ Microsoft global Azure and Azure Government offer the following three passwordle
            FIDO2 security keys - a form of hardware-based authentication that uses public key cryptography to provide secure, passwordless authentication
                                  to websites and other online services that support the FIDO2 standard.
 
+Azure External Identities allows you to manage the identities of external users, such as customers, partners, and suppliers, who need access to 
+                          your organization's applications and resources.
 
-
-
-
-
-
+The following capabilities make up External Identities:
+           Buisiness to business (B2B) collaboration -  Collaborate with external users by letting them use their preferred identity to sign-in to your
+                                                        Microsoft applications or other enterprise applications           
+           B2B direct connect - Establish a mutual, two-way trust with another Azure AD organization for seamless collaboration.           
+           Azure AD business to cutomer (B2C) - allows businesses to manage and authenticate the identities of their customers, allowing them to 
+                                                easily and securely provide access to their applications and services while maintaining control over 
+                                                their customer's identity data.
 
 
 
