@@ -379,19 +379,17 @@ Familiar programmability: Applications running in Azure can access data in the s
 
 Azure Queue Storage is a service for storing large numbers of messages
 
+Azure Migrate is a service that helps you migrate from an on-premises environment to the cloud. 
+Migrate functions as a hub to help you manage the assessment and migration of your on-premises datacenter to Azure and also provides :
+          - Unified migration platform: A single portal to start, run, and track your migration to Azure.
+          - Range of tools: A range of tools for assessment and migration.
+          - Assessment and migration: In the Azure Migrate hub, you can assess and migrate your on-premises infrastructure to Azure.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Azure Data Box is a physical migration service that helps transfer large amounts of data in a quick, inexpensive, and reliable way.
+AzCopy is a command-line utility that you can use to copy blobs or files to or from your storage account. 
+Azure Storage Explorer is a standalone app that provides a graphical interface to manage files and blobs in your Azure Storage Account.
+Azure File Sync is a tool that lets you centralize your file shares in Azure Files and keep the flexibility, performance, and 
+                compatibility of a Windows file server
 
 
 
