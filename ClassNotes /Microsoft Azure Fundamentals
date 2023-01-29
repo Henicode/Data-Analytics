@@ -309,10 +309,25 @@ You can add, modify, or delete resource tags through Windows PowerShell, the Azu
     the REST API, or the Azure portal.
 
 
+                                 ---------------------------------------------------------
+AZURE ARCHITECTURE AND SERVICES 
+STORAGE SERVICE 
 
 
-
-
+Azure Storage always stores multiple copies of your data so that it's protected from planned and unplanned events such as transient hardware failures,
+             network or power outages, and natural disasters.
+             
+Redundancy ensures that your storage account meets its availability and durability targets even in the face of failures.
+These are list of redundancy options :
+     .Locally redundant storage (LRS) - replicates your data three times within a single data center in the primary region.
+                                      - lowest-cost redundancy option and offers the least durability compared to other options.           
+     .Geo-redundant storage (GRS) -1. copies your data synchronously three times within a single physical location in the primary region using LRS
+                                   2. copies your data asynchronously to a single physical location in the secondary region (region pair) using LRS
+     .Geo-zone-redundant storage (GZRS) - combines the high availability provided by redundancy across availability zones with protection from regional
+                                          outages provided by geo-replication.     
+     .Zone-redundant storage (ZRS) - replicates your Azure Storage data synchronously across three Azure availability zones in the primary region.           
+     .Read-access geo-zone-redundant storage (RA-GZRS) -
+     .Read-access geo-redundant storage (RA-GRS)
 
 
 
