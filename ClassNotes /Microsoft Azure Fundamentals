@@ -446,6 +446,37 @@ The following capabilities make up External Identities:
                                                 easily and securely provide access to their applications and services while maintaining control over 
                                                 their customer's identity data.
 
+Conditional Access is a tool that Azure Active Directory uses to allow (or deny) access to resources based on identity signals. 
+                   These signals include who the user is, where the user is, and what device the user is requesting access from.
+
+Azure Role-based access control (RBAC) allows administrators to manage access to Azure resources by defining roles and then assigning those roles
+                       to users, groups, or service principals, providing a simple and secure way to manage and control access to Azure resources.
+
+Role-based access control is applied to a scope, which is a resource or set of resources that this access applies to.
+Scopes include:
+           A management group (a collection of multiple subscriptions).
+           A single subscription.
+           A resource group.
+           A single resource.
+
+Azure RBAC is hierarchical, in that when you grant access at a parent scope, those permissions are inherited by all child scopes. 
+For example:
+      When you assign the Owner role to a user at the management group scope, that user can manage everything in all subscriptions within 
+                   the management group.
+      When you assign the Reader role to a group at the subscription scope, the members of that group can view every resource group and resource within 
+                   the subscription.
+
+Azure RBAC is enforced on any action that's initiated against an Azure resource that passes through Azure Resource Manager. 
+Resource Manager is a management service that provides a way to organize and secure your cloud resources.
+
+Zero Trust is a security model that assumes the worst case scenario and protects resources with that expectation
+
+To address this new world of computing, Microsoft highly recommends the Zero Trust security model, 
+ which is based on these guiding principles:
+           Verify explicitly - Always authenticate and authorize based on all available data points.
+           Use least privilege access - Limit user access with Just-In-Time and Just-Enough-Access (JIT/JEA), 
+                                        risk-based adaptive policies, and data protection.
+           Assume breach - Minimize blast radius and segment access. Verify end-to-end encryption. 
 
 
 
