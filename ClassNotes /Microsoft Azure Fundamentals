@@ -343,8 +343,10 @@ Scalable -  Storage is designed to be massively scalable to meet the data storag
 Managed -  handles hardware maintenance, updates, and critical issues for you.
 Accessible - Data in Azure Storage is accessible from anywhere in the world over HTTP or HTTPS. 
 
+Some Azure storage services :
+    Blob storage, data lake storage Gen2, azure files, queue storage, table storage
 
-BLOG Storage(Binary large object)- object storage solution for the cloud. It can store massive amounts of unstructured (no restriction of data type) data, 
+BLOB Storage(Binary large object)- object storage solution for the cloud. It can store massive amounts of unstructured (no restriction of data type) data, 
                            such as images, videos, audio, backups, and documents.
 
 Blob storage is ideal for:
