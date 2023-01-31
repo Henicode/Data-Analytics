@@ -398,6 +398,8 @@ IDENTITY, ACCESS, AND SECURITY
 
 Azure Active Directory (Azure AD) is a directory service that enables you to sign in and access both Microsoft cloud applications and cloud applications
                                   that you develop.
+                                  its a centralized database for storing and managing information about users, computers, and other resources in
+                                  network environment.
 Azure AD can detect sign-in attempts from unexpected locations or unknown devices.
 Azure AD is used by : 
                      IT administrators
