@@ -534,18 +534,55 @@ The Microsoft Service Trust Portal is a portal that provides access to various c
 
 
 
+TOOLS FOR MANAGING AND DEPLOYING AZURE RESOURCES 
 
 
+Azure provides multiple tools for managing your environment, including the:
+                      Azure portal
+                      Azure PowerShell
+                      Azure Command Line Interface (CLI)
 
 
+Azure portal is a web-based, unified console that provides an alternative to command-line tools.
+With Azure portal you can : 
+                           .Build, manage, and monitor everything from simple web apps to complex cloud deployments
+                           .Create custom dashboards for an organized view of resources
+                           .Configure accessibility options for an optimal experience
+                           
+Azure Cloud Shell is a browser-based shell tool that allows you to create, configure, and manage Azure resources using a shell.
+
+Azure PowerShell is a shell with which developers, DevOps, and IT professionals can run commands called command-lets (cmdlets). 
+It allows administrators to perform various tasks, such as creating and managing Azure resources, automating repetitive tasks, and managing deployments,
+          using scripts and commands in the PowerShell environment.
+          
+Azure CLI is functionally equivalent to Azure PowerShell, with the primary difference being the syntax of commands.
+         While Azure PowerShell uses PowerShell commands, the Azure CLI uses Bash commands.
 
 
+Azure Arc is a service that allows organizations to manage on-premises, multi-cloud, and edge resources as if they were native Azure resources. 
+It enables IT administrators to manage and monitor their non-Azure resources, such as Linux and Windows servers, Kubernetes clusters, and applications,
+     using Azure management and security tools.
+Azure Arc allows you to manage the following resource types hosted outside of Azure:
+                      Servers
+                      Kubernetes clusters
+                      Azure data services
+                      SQL Server
+                      Virtual machines 
 
+Azure Resource Manager (ARM) is the deployment and management service for Azure. 
+  It provides a management layer that enables you to create, update, and delete resources in your Azure account.
 
+Azure Resource Manager templates are JSON-based files that define the infrastructure and configuration of Azure resources. 
+They allow you to automate the deployment and configuration of resources in Azure, making it easier to manage and maintain complex deployments.
 
+Some of ARM benefits include:
 
-
-
+Declarative syntax: ARM templates allow you to create and deploy an entire Azure infrastructure declaratively.
+Repeatable results: Repeatedly deploy your infrastructure throughout the development lifecycle and have confidence your resources are deployed
+                    in a consistent manner.
+Orchestration: Azure Resource Manager orchestrates the deployment of interdependent resources, so they're created in the correct order
+Modular files: You can break your templates into smaller, reusable components and link them together at deployment time. 
+Extensibility: With deployment scripts, you can add PowerShell or Bash scripts to your templates.
 
 
 
