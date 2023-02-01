@@ -526,9 +526,11 @@ There are two types of resource locks in Azure:
            Delete Locks: This type of lock prevents deletion of the resource.
                             This is useful when you have critical resources that you want to protect from accidental deletion.
 
+PURPOSE OF THE SERVICE TRUST PORTAL 
 
 
-
+The Microsoft Service Trust Portal is a portal that provides access to various content, tools, and other resources about Microsoft security,
+                      privacy, and compliance practices.
 
 
 
