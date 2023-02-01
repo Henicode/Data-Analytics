@@ -513,13 +513,18 @@ PURPOSE OF AZURE POLICY
 
 Azure Policy is a service in Azure that enables you to create, assign, and manage policies that control or audit your resources.
 
+Azure Policy initiative is a way of grouping related policies together. 
 
 
+PURPOSE OF RESOURCE LOCKS 
 
+A resource lock prevents resources from being accidentally deleted or changed.
 
-
-
-
+There are two types of resource locks in Azure:
+           Read-Only Locks: This type of lock prevents unauthorized changes to the resource, but allows read access to it. 
+                            This is useful when you want to prevent accidental deletions or modifications to critical resources.
+           Delete Locks: This type of lock prevents deletion of the resource.
+                            This is useful when you have critical resources that you want to protect from accidental deletion.
 
 
 
