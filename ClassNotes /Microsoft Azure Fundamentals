@@ -585,7 +585,49 @@ Modular files: You can break your templates into smaller, reusable components an
 Extensibility: With deployment scripts, you can add PowerShell or Bash scripts to your templates.
 
 
-
+            ---------------------------------------------------------
+ DESCRIBE MONITORING TOOLS IN AZURE 
+ 
+ 
+Azure Advisor evaluates your Azure resources and makes recommendations to help improve reliability, security, and performance, achieve operational 
+              excellence, and reduce costs.
+            
+ When using Azure portal, Advisor dashboard displays personlized recommendations.
+ The recommendations are divided into five catagories :
+ 
+           Reliability is used to ensure and improve the continuity of your business-critical applications.
+           Security is used to detect threats and vulnerabilities that might lead to security breaches.
+           Performance is used to improve the speed of your applications.
+           Operational Excellence is used to help you achieve process and workflow efficiency, resource manageability, and deployment best practices.
+           Cost is used to optimize and reduce your overall Azure spending.
+            
+            
+Azure Monitor is a platform for collecting data on your resources, analyzing that data, visualizing the information, and even acting on the results.
+Azure Log Analytics is the tool in the Azure portal where you’ll write and run log queries on the data gathered by Azure Monitor.
+Azure Monitor Alerts are an automated way to stay informed when Azure Monitor detects a threshold being crossed.
+Application Insights monitors your web applications and is capable of monitoring applications that are running in Azure, on-premises, or 
+           in a different cloud environment.            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
 
 
