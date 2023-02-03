@@ -617,7 +617,8 @@ Application Insights monitors your web applications and is capable of monitoring
  Elasticity automatically increase or decrease resources to meet spikes and drops in demand 
  Agility controls speed and flexibility in allocation and deallocation of required resources 
  
-            
+Azure functions include the abstraction of servers, infrastructure, and operating systems 
+Container instances is a lightweigh, birualized application environmnet 
             
             
             
