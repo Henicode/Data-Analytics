@@ -610,7 +610,13 @@ Application Insights monitors your web applications and is capable of monitoring
             
             
             
+------------------------------------------------------------            
             
+            
+ Scalability allows you to manully increase or decrease resources to meet predictable workload 
+ Elasticity automatically increase or decrease resources to meet spikes and drops in demand 
+ Agility controls speed and flexibility in allocation and deallocation of required resources 
+ 
             
             
             
