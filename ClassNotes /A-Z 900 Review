@@ -119,7 +119,7 @@ Region Pair
         Each region is paired with another region making it a region pair
         Region pairs are static and cannot be chosen
         Each pair resides within the same geography*
-        Exception is Brazil South
+             Exception is Brazil South
         Physical isolation with at least 300 miles distance (when possible)
         Some services have platform-provided replication
         Planned updates across the pairs
