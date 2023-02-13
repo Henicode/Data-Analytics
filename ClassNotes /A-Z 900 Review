@@ -15,14 +15,14 @@ Key concepts
     disaster recovery is the process and design principle which allows a system to recovers from natural or human induced disasters (it creates 2 copies of the same application into your regions)
     high availability is the ability to keep services running for extended periods of time with little downtime 
     availability = uptime/(uptime + downtime). - measure of system uptime for users/services
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 Economies of Scale
     Refers to the cost saving that result from the incresed use of azure services. 
     As more customers use Azure, the costs assosciated with running and maintaing the services can be spread out over a larger user base,
        resulting in lower costs for each user. 
     The principle of economies of scale states that as the companies grow they become more effective at managing shared operations.
     
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                         Capital Expenditure	(buying)                         Operational Expenditure (renting)
               
@@ -37,6 +37,7 @@ CapEx is buying own infrastructure, can use server capacity until full while als
          maintenance of support staff, power, networking, hardware failures and others
 OpEx is renting infrastrucute, only pay for what is used with no inital investment and requires minimal maintenance 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 What is a consumption-based model?
 The consumption-based model is a pricing model used in the cloud so that customers are only charged based on their resource usage.
    - no upfront costs 
@@ -52,7 +53,7 @@ This model is characterized by
   Consumption is the virtual metric used to calculate how much each resource (service) in Azure was used. 
             Each service has many smaller metrics that track its consumption to offer best possible pricing model. 
             Those metrics are tracked on very granular level.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Service Models responsibilities
 As a service means which party will manage the particular layer and all the layers below.
@@ -97,11 +98,28 @@ Platform as a Service :
 Software as a Service : 
     Cloud provider manages infrastructure, platform & software. (EVERYTHING)
     You manage nothing 
-  
-        
-    
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
+Public Cloud : environment where the infrastructure and services are owned and operated by a third-party provider (aws, azure,...)
+    - Everything runs on cloud provider hardware
+    - No local hardware 
+    - Some services share hardware with other customers
+          Advantage - no CapEx, High availability & agility, pay as you go pricing, no hardware maintenace, No deep technical skills required 
+          Disadvantages- Security & compliance, Ownership
+Private Cloud : environment where the infrastructure and services are dedicated to a single organization and typically reside within the organization's
+                own data center
+    - Eveything runs on your own datacenter
+    - Self-service should be provided 
+    - You maintain the hardware
+          Advantage - control over security, meet any security and compliance
+          Disadvantae - inital CapEx, limited agility, IT skills and expertise are mandatory
+Hybrid Cloud : combination of public and private clouds, where organizations can run some workloads on the public cloud and others on the private cloud
+    - Combines public & private clouds 
+    - Great flexibility 
+          Advantage - flexible, run legacy apps in private cloud, utilize exsisting infrastructure, meet any security requirements 
+          Disadvantage - More expensive, complicated to manage, IT skills & expertise are mandatory 
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
 
 Data Center
         Physical facility
