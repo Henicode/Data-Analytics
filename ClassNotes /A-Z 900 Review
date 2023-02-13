@@ -8,26 +8,23 @@ Service delivery model over the internet (cloud). This includes but is not limit
 
 
 Key concepts
-    scalability is the ability to scale, so allocate and deallocate resources at any time
-    elasticity is the ability to scale dynamically
-    agility is the ability to react fast (scale quickly)
-    fault tolerance is the ability to maintain system uptime while physical and service component failures happen
-    disaster recovery is the process and design principle which allows a system to recovers from natural or human induced disasters
-    high availability is the agreed level of operational uptime for the system. It is a simple calculation of system uptime versus whole
-                      lifetime of the system.
-    availability = uptime/(uptime + downtime)
+    scalability is the ability to scale, so allocate(adding) and deallocate(removing) resources at any time
+    elasticity is the ability to scale dynamically (Automatic Scaling)
+    agility is the ability to react (allocate and deallocate) fast (scale quickly)
+    fault tolerance is the ability to remain up and running during component and service failures 
+    disaster recovery is the process and design principle which allows a system to recovers from natural or human induced disasters (it creates 2 copies of the same application into your regions)
+    high availability is the ability to keep services running for extended periods of time with little downtime 
+    availability = uptime/(uptime + downtime). - measure of system uptime for users/services
 
 Economies of Scale
+    Refers to the cost saving that result from the incresed use of azure services. 
+    As more customers use Azure, the costs assosciated with running and maintaing the services can be spread out over a larger user base,
+       resulting in lower costs for each user. 
     The principle of economies of scale states that as the companies grow they become more effective at managing shared operations.
-    Be that HR and hiring, taxes, accounting, internal operations, marketing, big purchases via contracts meaning better discounts, etc. etc.
-    Because of those, companies can save/earn more which in return allows for reduction in cost of their services to their customers.
-    This is so called ‘price per unit’.
-    It’s not possible to go to 0 because in the end some underlying infrastructure needs to run to provide the services.
-    But the larger the scale the more benefits can be passed to customers.
-    In fact, in the current scale, Microsoft can already offer multiple services for free due to how small a fraction of the cost it is for them.
+    
 
 
-                        Capital Expenditure	                         Operational Expenditure
+                        Capital Expenditure	(buying)                         Operational Expenditure (renting)
               
 Up front cost	               Significant	                                          None
 Ongoing cost	               Low	                                              Based on usage
@@ -36,6 +33,9 @@ Early Termination           	No	                                                
 Maintenance               	Significant                                             	Low
 Value over time	               Lowers	                                              No change
 
+CapEx is buying own infrastructure, can use server capacity until full while also managing your own infrasture which requires 
+         maintenance of support staff, power, networking, hardware failures and others
+OpEx is renting infrastrucute, only pay for what is used with no inital investment and requires minimal maintenance 
 
 What is a consumption-based model?
 The consumption-based model is a pricing model used in the cloud so that customers are only charged based on their resource usage.
