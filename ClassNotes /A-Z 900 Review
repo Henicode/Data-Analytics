@@ -39,17 +39,17 @@ OpEx is renting infrastrucute, only pay for what is used with no inital investme
 
 What is a consumption-based model?
 The consumption-based model is a pricing model used in the cloud so that customers are only charged based on their resource usage.
+   - no upfront costs 
+   - no wasted resources 
+   - pay for additional resources when needed 
+   - stop paying at any time 
 
 This model is characterized by
             No associated upfront cost
-            No wasted resources as such no charges are incurred for unused resources*.
-            Unused in this case is different per service. 
-            For instance, blob storage that stores any data is considered to be used, as it consumes the storage space.
-            Virtual Machines that are running consume CPU, memory and other resources even if there isn’t any traffic.
-            Hence they are considered to be used and will incur charges.
+            No wasted resources 
             Pay for what you need
             Stop paying when you don’t
-            Consumption is the virtual metric used to calculate how much each resource (service) in Azure was used. 
+  Consumption is the virtual metric used to calculate how much each resource (service) in Azure was used. 
             Each service has many smaller metrics that track its consumption to offer best possible pricing model. 
             Those metrics are tracked on very granular level.
 
@@ -86,6 +86,21 @@ As a service means which party will manage the particular layer and all the laye
                                     Servers	                            You	            Cloud provider	Cloud provider	Cloud provider
                                     Networking	                        You	            Cloud provider	Cloud provider	Cloud provider
                                     Storage	                            You	            Cloud provider	Cloud provider	Cloud provider
+
+
+Infrastructure as a Service :
+    Cloud provider manages infrastructure - networking, hardware & virtualization 
+    You manage platform & software - operating system, middleware, runtime, data & application
+Platform as a Service : 
+    Cloud provider manages infrastructure & platform - networking, hardware, virtualization, operating system, middleware, runtime
+    You manage software - data & application 
+Software as a Service : 
+    Cloud provider manages infrastructure, platform & software. (EVERYTHING)
+    You manage nothing 
+  
+        
+    
+
 
 
 Data Center
