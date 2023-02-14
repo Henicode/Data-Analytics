@@ -198,9 +198,33 @@ Geographies : grouping of one or more regions that are defined by their physical
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------  
 
+Resource : manageable items that are created and managed through azure resource manager and are used to create and deploy applications and 
+                      managed through Resource manager 
+                      
+        - Objects used to manage services in Azure 
+        - Represent service lifecycle 
+        - Saved as JSON file 
+        
+Resource group : logical container for related resources that share a common lifecycle 
+        
+        - Grouping of resources 
+        - Holds logically related resources 
+        - Organized by 
+                        - Type 
+                        - Lifecycle (app, environment)
+                        - Department 
+                        - Billing, Location or combination of those 
+                        
+       - Each resource must be in one, and ONLY one resource group
+       - Resource groups have their own location assigned 
+       - Resources ub tge resiyrce groups can reside in a different locations 
+       - Resources can be moves between resource groups 
+       
+Resource manager : deplyment and management service that provides a consistent management later for resources.
 
-
-
+       - Management later for all resources and resource groups 
+       - Control access and resources 
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
 
 
 
