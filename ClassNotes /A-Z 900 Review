@@ -158,10 +158,18 @@ Region Pair
         Planned updates across the pairs
         Data residency maintained for disaster recovery
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
 
+Data center : refers to a physical facility that hosts its cloud computing services and store customer data (SQL,WEB,VM,...)
+        - Physical facility 
+        - Hosting for group of networked servers 
+        - Has its own power, cooling & networking infrastructure 
 
-
-
+Region : is a geographical location where Microsoft deploys its data centers to provide cloud computing services. 
+        - Geographical area on the planet 
+        - One but usually more datacenters connected with low-latency networking *less than 2 milliseconds
+        - Some services are available only in certain regions 
+        
 
 
 
