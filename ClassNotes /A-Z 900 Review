@@ -169,7 +169,52 @@ Region : is a geographical location where Microsoft deploys its data centers to 
         - Geographical area on the planet 
         - One but usually more datacenters connected with low-latency networking *less than 2 milliseconds
         - Some services are available only in certain regions 
+
+Availability zone : Physically seperatie and independent data center within Azure region that provide additional fault tolerance and high availability
+                               to applications and services. 
+        - Grouping of physically separete facilities 
+        - Designed to protect from data center failures 
+        - If zone goes down others continue working 
+                 - Two servuce catagories 
+                     - Zonal services (virutal macines, disks, etc.)
+                     - Zone-redundant services (SQL, Storage, etc.)
+       - Not all regions are supported 
+       - Supported region has three or more zones
+       - A zone is one or more data centers
+
+Region pair : refers to pairs of azure regions that are located within the same geography and are designed to provide high availability and 
+                     disaster recovery capabilities.
+                     
+        - Each region is paired with another region making it a region pair 
+        - Region pairs are static and connot be chosen 
+        - Each pair resides within the same geography 
+        - Physical isolation with at least 300 miles distance 
+        - Planned updates across the pairs 
         
+Geographies : grouping of one or more regions that are defined by their physical locations
+        - Ensures data residency, sovereignty, resiliency, and compliance requirements are met
+        - Faul tolerant to protect from region wide failures 
+        - Each region belongs only to one Geography 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
