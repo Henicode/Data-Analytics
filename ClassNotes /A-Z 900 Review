@@ -217,13 +217,14 @@ Resource group : logical container for related resources that share a common lif
                         
        - Each resource must be in one, and ONLY one resource group
        - Resource groups have their own location assigned 
-       - Resources ub tge resiyrce groups can reside in a different locations 
+       - Resources in the resource groups can reside in a different locations 
        - Resources can be moves between resource groups 
        
 Resource manager : deplyment and management service that provides a consistent management later for resources.
 
        - Management later for all resources and resource groups 
        - Control access and resources 
+       - Responsible with checking previlages with Azure AD 
 --------------------------------------------------------------------------------------------------------------------------------------------------------  
 
 
