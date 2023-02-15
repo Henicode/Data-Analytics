@@ -227,11 +227,11 @@ Resource manager : deplyment and management service that provides a consistent m
        - Responsible with checking previlages with Azure AD 
 --------------------------------------------------------------------------------------------------------------------------------------------------------  
 
-
-
-
-
-
+Fault tolerance - property that enables a system to continue operating properly in the event of the failure
+Disaster recovery - how fast you can recover from a failure 
+High availability - charactersitc of a system which aims to ensure an aggreed level of operational performance, usually uptime, for a higher than normal
+Resource group - a container that holds related resources for an Azure solution.
+load balancer - helps to evenly distributing load (incoming network traffic) across a group of backend resources or servers.
 
 
 
