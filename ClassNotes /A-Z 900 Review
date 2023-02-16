@@ -259,16 +259,30 @@ Azure database migration service - migrated your databses to the cloud with no a
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------  
 Virtual Network (vNet) - logically isolated section of the Azure network where you launch your Azure resources
+Subnets - logical partition of an IP network into multiple smaller network segments. You are breaking up your IP range for Vnet into smaller networks
+Azure DNS - provides ultra-fast DNS responses and ultra-high domain availability 
+Azure Load balancer - acts as a reverse proxy and distributes network or application traffic across a number of servers
+Azure application gateway - Load balancer, can apply a web application firewall 
+Network security groups - will allow or deny network traffic to your virtual machine instances in a virtual network. Virtual firewall at the subnet level
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Azure front door - scalable and secure entry point for fast delivery of your global applications 
+Azure express route - connection between your on-premise to Azure cloud from 50Mbps to 10Gbps
+Virtual WAN - networking service that bring many networking, security, and routing functionalities together to provide a single operational interface
+Azure connection - VPN connection securely connect two Azure LOCAL network
+Virtual network gateway - site-to-site VPN connection between an azure virtual network and your local network 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Azure traffic manager - operates at the DNS layer to quickly and efficiently direct incoming DNS requests based on the routing method of your choice 
+Azure DNS - allows you to host your name on azure. create DNS zones and manage your DNS records 
+Scale sets - group together identical VMs and automatically increase or decrease the amount of servers based on CPU, memory, disk, network performance
+IOT services - network of internet connection objects able to collect and exchange data. eg. smart bulb, phone, smart fridge,...
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
+Azure portal - web based, unified console that provides an alternative to command-line tools. 
 
 
 
