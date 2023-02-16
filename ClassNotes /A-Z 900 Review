@@ -288,8 +288,14 @@ Multi-factor authentication - security control where after you fill in username 
 Azure key vault - helps safeguard cryptographic keys and other secrets used by cloud apps and services. token,passwords,certifactes,API keys, encryption keys
 Azure DDOS protection - malicious attempt to disrupt normal traffic by flooding a website with large amounts of fake traffic 
 Azure firewall - managed, cloud-based network security service that protects your azure virtual network resources 
+Azure information protection - protects sensetive information, emails and documents with encryption, restricted access and rights and integrated office apps
+Application gateway - web traffic load balancer that re-route traffic based on a set of rules. 
+Azure advanced threat protection -  leverages your on-premises active directory signals to identify, detect, and investigate advanced threats, 
+                                    compromised identities, and malicious insider actions directed at your organization 
+Azure policy - service you can use to create, assign, and manage policies. Allows you to enforce or control the properties of a resource 
+Azure role-based access control - manage who has access to azure resources, what they can do, and what area they have access to 
 
-
+                
 
 
 
