@@ -233,6 +233,39 @@ High availability - charactersitc of a system which aims to ensure an aggreed le
 Resource group - a container that holds related resources for an Azure solution.
 load balancer - helps to evenly distributing load (incoming network traffic) across a group of backend resources or servers.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+Azure container instances - Docker as a service run containerized apps on Azure without provisioning servers or VMs
+Azure Kubernetes Services - Easy to deploy, manage and scale containerized applications. uses open source jubernetes software
+Azure Functions - Event-driven, serverless compute(functions) run code without provisioning or managing servers. Consumption base model
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
+Azure Blob storage - obejct serverless storage. store very large files and large amounts of unstrucuted files. pay for what you store, unlimited storage
+Azure disk storage - a virtual volume. choose SSD or HDD, encryption by default, attach volume to VMs 
+Azure file storage - a shared volume that you can access and manage like a file server
+Azure queue storage - messaging queue a data store for queuing and reliably delivering messages between applications 
+Azure table storage - wide-column NoSQL database a NoSQL store that hosts unstructured data independet of any schema 
+Azure data box - a rugged briefcase computer and storage designed to move terabytes or petabytes of data 
+Azure archive storage - long term cold storage for when you need to hold onto files for years on the cheapest storage options 
+Azure data lake storage - centeralized repository that allows you to store all your structured and unstructured data at any scale 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
