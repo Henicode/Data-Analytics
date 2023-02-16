@@ -249,6 +249,16 @@ Azure data box - a rugged briefcase computer and storage designed to move teraby
 Azure archive storage - long term cold storage for when you need to hold onto files for years on the cheapest storage options 
 Azure data lake storage - centeralized repository that allows you to store all your structured and unstructured data at any scale 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+Azure Cosmos DB - fully managed NoSQL databases. Designed for scale with guarantee of 99.999% availability 
+Azure SQL databse - fully managed MS SQL databse with auto-scale, integral intelligence, and robust security 
+SQL server on VMs - host enterprise SQL server apps in the cloud. Lift-and-shift MS SQL servers from on-premise to azure cloud 
+Azure synapse analytics(SQL data warehouse) - fully managed data warehouse with integral security at every level of scale at no extra cost 
+Azure database migration service - migrated your databses to the cloud with no application code changes 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------  
+Virtual Network (vNet) - logically isolated section of the Azure network where you launch your Azure resources
 
 
 
