@@ -283,6 +283,11 @@ IOT services - network of internet connection objects able to collect and exchan
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Azure portal - web based, unified console that provides an alternative to command-line tools. 
+Azure active directory - cloud based identity and access management service. helps employees sign in and access resources. Implement Single-sign on 
+Multi-factor authentication - security control where after you fill in username and password, you have to use a SECOND device to confirm your sign in
+Azure key vault - helps safeguard cryptographic keys and other secrets used by cloud apps and services. token,passwords,certifactes,API keys, encryption keys
+Azure DDOS protection - malicious attempt to disrupt normal traffic by flooding a website with large amounts of fake traffic 
+Azure firewall - managed, cloud-based network security service that protects your azure virtual network resources 
 
 
 
