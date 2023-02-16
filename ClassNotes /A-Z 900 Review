@@ -294,6 +294,18 @@ Azure advanced threat protection -  leverages your on-premises active directory 
                                     compromised identities, and malicious insider actions directed at your organization 
 Azure policy - service you can use to create, assign, and manage policies. Allows you to enforce or control the properties of a resource 
 Azure role-based access control - manage who has access to azure resources, what they can do, and what area they have access to 
+                                                Role definition 
+                                    Owner - can read, grant, create, update, delete 
+                                    Contributor - can read, create, update, delete
+                                    Reader - read 
+                                    User access administrator - grant 
+Azure lock - lock a subscription, resource group, or resource to prevent other users from accidentally deleting or modifying critical resources 
+Azure managemet groups - managing multiple subscription(accounts) into a hierarchal structure 
+Azure monitor - solution for collection, analyzing and active on telemetry from your cloud and on-premises environments 
+Azure service health - information about current and upcoming issues. serivce impacting events, planned maintenance, status, changes affect your availability 
+Azure advisor - personalized cloud consultant that display recommendations to optimise your deployment. High availabilit,security,performance,cost, operational excellence
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
                 
 
