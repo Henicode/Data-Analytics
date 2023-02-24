@@ -4,3 +4,11 @@ Sets - type of collection
      - do not contain duplicates 
 
 conditions and branching 
+Write an if statement to determine if an album came out before 1980 or in the years: 1991 or 1993. If the condition is true print out the year the album came out.
+
+album = 1999
+     if (album < 1980 or album == 1991 or album == 1993):
+         print("Your album came out in the year:", album)
+     else :
+          print("None of those years")
+    
