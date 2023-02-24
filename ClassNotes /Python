@@ -12,4 +12,9 @@ album = 1999
      else :
           print("None of those years")
     
-For Loop
+A function is a reusable block of code which performs operations specified in the function. They let you break down tasks and allow you to reuse your code in different programs.
+
+There are two types of functions :
+
+     Pre-defined functions
+     User defined functions
