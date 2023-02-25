@@ -18,3 +18,14 @@ There are two types of functions :
 
      Pre-defined functions
      User defined functions
+     
+     
+     
+  Variables
+     The input to a function is called a formal parameter.
+
+     A variable that is declared inside a function is called a local variable. The parameter only exists within the function
+          (i.e. the point where the function starts and stops).
+
+     A variable that is declared outside a function definition is a global variable, and its value is accessible and modifiable throughout the program.
+          We will discuss more about global variables at the end of the lab.
