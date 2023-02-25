@@ -34,9 +34,25 @@ Exceptional handling
      an error that occurs during the execution of code. This error causes the code to raise an exception and if not prepared to handle
      it will halt the execution of the code.
 
+A try except will allow you to execute code that might raise an exception and in the case of any exception or a specific one we can handle or catch
+     the exception and execute specific code. This will allow us to continue the execution of our program even if there is an exception.
 
-
-
+Eg.messAround -
+     # potential code before try catch
+a = 6
+try:
+    # code to try to execute
+    def multi(b):
+        c = a + b
+        if (c > 6):
+            print("your calc is :", c)
+except:
+        # code to execute if there is an exception
+        print("error")
+    
+    
+multi(266)
+# code that will still execute if there is an exception
 
 
 
