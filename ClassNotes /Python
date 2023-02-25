@@ -31,7 +31,8 @@ There are two types of functions :
           We will discuss more about global variables at the end of the lab.
 
 Exceptional handling 
-
+     an error that occurs during the execution of code. This error causes the code to raise an exception and if not prepared to handle
+     it will halt the execution of the code.
 
 
 
