@@ -72,6 +72,23 @@ eg.2
 
 Method - changes or interacts with the objects
 
+class
+__init__, which is used to initialize the object
+self contains all the attributes in the set.
+add_radius() with the parameter r, the method adds the value of r to the attribute radius
+To access the radius we use the syntax self.radius
+
+     class Circle(object):
+
+         # Constructor
+         def __init__(self, radius=3, color='blue'):
+             self.radius = radius
+             self.color = color 
+
+         # Method
+         def add_radius(self, r):
+             self.radius = self.radius + r
+             return(self.radius)
 
 
 
