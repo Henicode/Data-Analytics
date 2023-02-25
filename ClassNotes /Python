@@ -77,6 +77,7 @@ __init__, which is used to initialize the object
 self contains all the attributes in the set.
 add_radius() with the parameter r, the method adds the value of r to the attribute radius
 To access the radius we use the syntax self.radius
+dir command gets a list of an object's methods 
 
      class Circle(object):
 
