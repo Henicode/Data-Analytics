@@ -29,3 +29,28 @@ There are two types of functions :
 
      A variable that is declared outside a function definition is a global variable, and its value is accessible and modifiable throughout the program.
           We will discuss more about global variables at the end of the lab.
+
+Exceptional handling 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
