@@ -157,17 +157,44 @@ With statement is better practice, it automatically closes the file even if the 
           with open(example1, "r") as file1:
               FileasList = file1.readlines()
 
+---------
+We can open a file object using the method write() to save the text file to a list.
+To write to a file, the mode argument must be set to w
 
+          # Write line to file
+               exmp2 = 'Example2.txt'
+               with open(exmp2, 'w') as writefile:
+                   writefile.write("This is line A")
+                   
+          # Write lines to file
+               with open(exmp2, 'w') as writefile:
+                   writefile.write("This is line A\n")
+                   writefile.write("This is line B\n")
 
+          # Write the strings in the list to text file
+               Lines = ["This is line A\n", "This is line B\n", "This is line C\n"]
+               with open('Example2.txt', 'w') as writefile:
+                   for line in Lines:
+                       print(line)
+                       writefile.write(line)
+                       
+          # Verify if writing to file is successfully executed
+               with open('Example2.txt', 'r') as testwritefile:
+                   print(testwritefile.read())
 
+          # Write a new line to text file
+               with open('Example2.txt', 'a') as testwritefile:
+                   testwritefile.write("This is line C\n")
+                   testwritefile.write("This is line D\n")
+                   testwritefile.write("This is line E\n")
 
+          # Verify if the new line is in the text file
+               with open('Example2.txt', 'r') as testwritefile:
+                   print(testwritefile.read())
 
-
-
-
-
-
-
+r+ : Reading and writing. Cannot truncate the file.
+w+ : Writing and reading. Truncates the file.
+a+ : Appending and Reading. Creates a new file, if none exists.
 
 
 
