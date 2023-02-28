@@ -257,12 +257,74 @@ SLICING
 Slicing uses the [] operator to select a set of rows and/or columns from a DataFrame.
 To slice out a set of rows, you use this syntax: data[start:stop]
 
-          # let us do the slicing using old dataframe df
+ # let us do the slicing using old dataframe df
                  df.iloc[0:2, 0:3]
 
           #let us do the slicing using loc() function on old dataframe df where index column is having labels as 0,1,2
                  df.loc[0:2,'ID':'Department']
 
+
+--------------------------------------------
+ARRAY
+
+     # Create numpy array
+          c = np.array([20, 1, 2, 3, 4])
+          c
+          
+     # Assign the first element to 100
+          c[0] = 100
+          c
+
+     # Slicing the numpy array
+          d = c[1:4]
+          d
+          
+     # Set the fourth element and fifth element to 300 and 400
+          c[3:5] = 300, 400
+          c
+     # Print everything before assined position - 1,2,3,4
+          print(arr[:4])
+          
+     # Print everything after assigned position - 5,6,7
+          print(arr[4:])
+
+The dot product of the two numpy arrays u and v is given by:
+
+X = np.array([1, 2])
+Y = np.array([3, 2])
+
+# Calculate the dot product
+
+np.dot(X, Y)
+= 7.      x = 1*3 +  y = 2*2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
 
 
 
