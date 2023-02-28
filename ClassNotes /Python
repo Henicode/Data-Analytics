@@ -300,14 +300,31 @@ np.dot(X, Y)
 
 
 
+-----------------
+ 2D Numpy Array
+ 
+ eg\\
+ 
+ 
+           # Convert list to Numpy Array
+           # Every element is the same type
 
-
-
-
-
-
-
-
+                    A = np.array(a)
+                    A
+          # Show the numpy array dimensions
+                    A.ndim
+          # Show the numpy array shape
+                    A.shape
+          # Show the numpy array size
+                    A.size
+          # Access the element on the second row and third column
+                    A[1, 2]
+          # Access the element on the second row and third column
+                    A[1][2]
+          # Access the element on the first row and first and second columns
+                    A[0][0:2]
+          # Access the element on the first and second rows and third column
+                    A[0:2, 2]
 
 
 
