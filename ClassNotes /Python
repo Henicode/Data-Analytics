@@ -197,27 +197,71 @@ w+ : Writing and reading. Truncates the file.
 a+ : Appending and Reading. Creates a new file, if none exists.
 
 
+---------------------
+PANDAS 
+
+ Pandas generally provide two data structures for manipulating data, They are:
+          DataFrame - a two-dimensional data structure
+          Series - a one-dimensional array of indexed data
+          
+          
+          
+ Importing pandas 
+ 
+ import pandas 
+ csv_path = 'file1.csv'
+ df = pandas.read_csv(csv_path).   #df datadrame
+ 
+
+     #Define a dictionary 'x'
+
+     x = {'Name': ['Rose','John', 'Jane', 'Mary'], 'ID': [1, 2, 3, 4], 'Department': ['Architect Group', 'Software Group',
+                    'Design Team', 'Infrastructure'], 
+                     'Salary':[100000, 80000, 50000, 60000]}
+
+     #casting the dictionary to a DataFrame
+     df = pd.DataFrame(x)
+
+     #display the result df
+     df
+
+     #Retrieving the "ID" column and assigning it to a variable x
+     x = df[['ID']]
+     x
+     
+     #check the type of x
+     type(x)
 
 
+loc() is a label-based data selecting method which means that we have to pass the name of the row or column that we want to select.
+This method includes the last element of the range passed in it.
 
+          loc[row_label, column_label]
+iloc() is an indexed-based selecting method which means that we have to pass integer index in the method to select a specific row/column.
+This method does not include the last element of the range passed in it.
 
+          iloc[row_index, column_index]
 
+EG 
+ 
+ # Access the value on the first row and the first column
+          df.iloc[0, 0]  
 
+ # Access the column using the name
+          df.loc[0, 'Salary']
+ #To display the first 5 rows of new dataframe
+          df.head()
 
+SLICING
 
+Slicing uses the [] operator to select a set of rows and/or columns from a DataFrame.
+To slice out a set of rows, you use this syntax: data[start:stop]
 
+          # let us do the slicing using old dataframe df
+                 df.iloc[0:2, 0:3]
 
-
-
-
-
-
-
-
-
-
-
-
+          #let us do the slicing using loc() function on old dataframe df where index column is having labels as 0,1,2
+                 df.loc[0:2,'ID':'Department']
 
 
 
