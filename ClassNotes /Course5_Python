@@ -332,8 +332,13 @@ API - returns a response, via an HTTP message, this response is usually containe
 Rest API’s function by sending a request, the request is communicated via HTTP message.
      The HTTP message usually contains a JSON file.
      This contains instructions for what operation we would like the service or resource to perform
-HTTP - 
-
+HTTP(Hypertext Transfer Protocol) - application-layer protocol for transmitting hypermedia documents, such as HTML
+URL(Uniform resource locator) - reference to a web resource that specifies its location on a computer network
+                                and a mechanism for retrieving it
+          We can break the URL into three parts.
+               - scheme this is this protocol, for this lab it will always be http://
+               - Internet address or Base URL this will be used to find the location here are some examples: www.ibm.com  
+               - route location on the web server for example: /images/IDSNlogo.png
 Status Code Responses - 1XX -Informational 
                         100 - Everything so far is OK
                         2XX - Success
