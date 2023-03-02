@@ -332,8 +332,21 @@ API - returns a response, via an HTTP message, this response is usually containe
 Rest API’s function by sending a request, the request is communicated via HTTP message.
      The HTTP message usually contains a JSON file.
      This contains instructions for what operation we would like the service or resource to perform
+HTTP - 
 
-x
+Status Code Responses - 1XX -Informational 
+                        100 - Everything so far is OK
+                        2XX - Success
+                        200 - OK
+                        3XX - Redirection 
+                        300 - Multiple Choices 
+                        4XX - Client Error 
+                        401 - Unauthorized 
+                        403 - Forbidden 
+                        404 - Not Found 
+                        500 - Server Error 
+                        501 - No Implemented 
+                        
 
 
 
