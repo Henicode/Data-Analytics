@@ -397,7 +397,29 @@ Status Code Responses - 1XX -Informational
                                      "DOB":user.get_dob(),
                                      "Picture":user.get_picture()})   
                    return pd.DataFrame(users)    
+-------------------------------------------
+WEBSCRAPPING 
+import beautiful soup for web scrapping 
 
+          from bs4 import BeautifulSoup 
+          import requests 
+
+# pass the website restored into beatiful soup for scrapping 
+          soup = BeautifulSoup(html, "html.parser")
+# use the prettify method to display the HTML in the nested structure 
+          print(soup.prettify())
+# lets say we want to extract the tag of the page. 
+          tag_object=soup.title
+          print("tag object:",tag_object)
+# you can access the parents with the parents of html structure 
+          parent_tag=tag_child.parent
+          parent_tag
+# the find_all() method looks through a tag's descendants and retrives all descendants that match your filters 
+#   the method signature for find_all(name, attrs, recursive, string, limit, **kwargs)
+
+# set the name parameteter to a tag name, method will extract all the tags with name and its children 
+          table_rows=table_bs.find_all('tr')
+          table_rows
 
 
 
@@ -409,6 +431,21 @@ Status Code Responses - 1XX -Informational
 
 
          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
