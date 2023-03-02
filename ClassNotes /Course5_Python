@@ -351,8 +351,52 @@ Status Code Responses - 1XX -Informational
                         404 - Not Found 
                         500 - Server Error 
                         501 - No Implemented 
-                        
-
+ ------------------------------------------
+ 
+ Generating using API Get methods 
+                                   get_cell()
+                                   get_city()
+                                   get_dob()
+                                   get_email()
+                                   get_first_name()
+                                   get_full_name()
+                                   get_gender()
+                                   get_id()
+                                   get_id_number()
+                                   get_id_type()
+                                   get_info()
+                                   get_last_name()
+                                   get_login_md5()
+                                   get_login_salt()
+                                   get_login_sha1()
+                                   get_login_sha256()
+                                   get_nat()
+                                   get_password()
+                                   get_phone()
+                                   get_picture()
+                                   get_postcode()
+                                   get_registered()
+                                   get_state()
+                                   get_street()
+                                   get_username()
+                                   get_zipcode()
+ 
+ Q -  generate photos of the random 5 users.
+               for user1 in some_list:
+                     print(user.get_picture())
+ Q - generate a table with information about the 10 users, we can write a function containing all desirable parameters.
+     For example, name, gender, city
+               def get_users():
+                   users =[] 
+                   for user in RandomUser.generate_users(10):
+                       users.append({"Name":user.get_full_name(),
+                                     "Gender":user.get_gender(),
+                                     "City":user.get_city(),
+                                     "State":user.get_state(),
+                                     "Email":user.get_email(), 
+                                     "DOB":user.get_dob(),
+                                     "Picture":user.get_picture()})   
+                   return pd.DataFrame(users)    
 
 
 
