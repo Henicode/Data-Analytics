@@ -421,6 +421,22 @@ import beautiful soup for web scrapping
           table_rows=table_bs.find_all('tr')
           table_rows
 
+--------------------------------------------
+installing
+                              #!pip install pandas==1.3.3
+                              #!pip install requests==2.26.0
+                              !mamba install bs4==4.10.0 -y
+                              !mamba install html5lib==1.1 -y
+                              !pip install lxml==4.6.4
+                              #!pip install plotly==5.3.1
+                              import pandas as pd
+                              import requests
+                              from bs4 import BeautifulSoup
+
+Extracting Stock Data using yfinance 
+import yfinance as yf 
+import pandas as pd 
+
 
 
 
