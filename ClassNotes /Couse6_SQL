@@ -92,7 +92,12 @@ A subquery is used to return data that will be used in the main query as a condi
 Implicit Inner Join combines the two or more records but displays only matching values in both tables. Inner join applies only the specified columns
 Implicit Cross Join defines as a Cartesian product where the number of rows in the first table multiplied by the number of rows in the second table
           
-          
+--------------------------------
+The connection methods are:
+The cursor() method, which returns a new cursor object using the connection.
+The commit() method, which is used to commit any pending transaction to the database.
+The rollback() method, which causes the database to roll-back to the start of any pending transaction.
+The close() method, which is used to close a database connection. 
           
           
           
