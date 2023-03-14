@@ -1,1 +1,27 @@
 
+# import pandas library
+      import pandas as pd
+      import numpy as np
+      
+#This function will download the dataset into your browser 
+
+      from pyodide.http import pyfetch
+
+      async def download(url, filename):
+          response = await pyfetch(url)
+          if response.status == 200:
+              with open(filename, "wb") as f:
+                  f.write(await response.bytes())
+#you will need to download the dataset; if you are running locally, please comment out the following 
+          await download(path, "auto.csv")
+          path="auto.csv"                  
+                  
+# Import pandas library
+          import pandas as pd
+
+# Read the online file by the URL provides above, and assign it to variable "df"
+          df = pd.read_csv(path, header=None)                  
+                  
+# show the first 5 rows using dataframe.head() method
+        print("The first 5 rows of the dataframe") 
+        df.head(5)   // df.tail(5) # bottom 5               
