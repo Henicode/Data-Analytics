@@ -25,3 +25,40 @@
 # show the first 5 rows using dataframe.head() method
         print("The first 5 rows of the dataframe") 
         df.head(5)   // df.tail(5) # bottom 5               
+
+# replace "?" to NaN
+            df.replace("?", np.nan, inplace = True)
+            df.head(5)
+            
+# Calculate the mean value for the "horsepower" column
+            avg_horsepower = df['horsepower'].astype('float').mean(axis=0)
+            print("Average horsepower:", avg_horsepower)            
+            
+# Calculate the mean value for "peak-rpm" column
+            avg_peakrpm=df['peak-rpm'].astype('float').mean(axis=0)
+            print("Average peak rpm:", avg_peakrpm)            
+            
+# Convert mpg to L/100km by mathematical operation (235 divided by mpg)
+            df['city-L/100km'] = 235/df["city-mpg"]
+
+# check your transformed data 
+            df.head()            
+            
+# replace (original value) by (original value)/(maximum value)
+            df['length'] = df['length']/df['length'].max()
+            df['width'] = df['width']/df['width'].max()            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
