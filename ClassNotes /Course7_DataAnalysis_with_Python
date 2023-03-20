@@ -48,9 +48,7 @@
             df['length'] = df['length']/df['length'].max()
             df['width'] = df['width']/df['width'].max()            
             
-            more          
-            more
-            more
+         
             
             
             
