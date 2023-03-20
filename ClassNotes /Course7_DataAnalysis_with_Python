@@ -48,8 +48,11 @@
             df['length'] = df['length']/df['length'].max()
             df['width'] = df['width']/df['width'].max()            
             
-         
-            
+#Let's find the scatterplot of "engine-size" and "price".
+# Engine size as potential predictor variable of price
+            sns.regplot(x="engine-size", y="price", data=df)
+            plt.ylim(0,)
+
             
             
             
