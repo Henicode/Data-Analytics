@@ -3,6 +3,16 @@
       import pandas as pd
       import numpy as np
       
+The describe function automatically computes basic statistics for all continuous variables. Any NaN values are automatically skipped in these statistics.
+This will show:
+            the count of that variable
+            the mean
+            the standard deviation (std)
+            the minimum value
+            the IQR (Interquartile Range: 25%, 50% and 75%)
+            the maximum value    
+      
+      
 #This function will download the dataset into your browser 
 
       from pyodide.http import pyfetch
@@ -53,12 +63,19 @@
             sns.regplot(x="engine-size", y="price", data=df)
             plt.ylim(0,)
 
+# What is the data type of the column "peak-rpm"?
+# Write your code below and press Shift+Enter to execute 
+            print(df["peak-rpm"].dtypes)
             
+# Find the correlation between the following columns: bore, stroke, compression-ratio, and horsepower.
+# Write your code below and press Shift+Enter to execute 
+            print(df[['bore','stroke','compression-ratio','horsepower']].corr)
+          
+# Find the correlation between x="stroke" and y="price".            
+             df[["stroke","price"]].corr()       
             
-            
-            
-            
-            
-            
+# Given the correlation results between "price" and "stroke", do you expect a linear relationship?
+# Verify your results using the function "regplot()".            
+            sns.regplot(x="stroke", y="price", data=df)
             
             
