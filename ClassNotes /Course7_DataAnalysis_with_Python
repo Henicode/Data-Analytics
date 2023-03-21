@@ -78,4 +78,49 @@ This will show:
 # Verify your results using the function "regplot()".            
             sns.regplot(x="stroke", y="price", data=df)
             
-            
+# Use the "groupby" function to find the average "price" of each car based on "body-style".            
+            first = df[["body-style", "price"]]
+            grouping = first.groupby(["body-style"], as_index=False).mean()
+            grouping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
