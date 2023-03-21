@@ -5,12 +5,12 @@
       
 The describe function automatically computes basic statistics for all continuous variables. Any NaN values are automatically skipped in these statistics.
 This will show:
-            the count of that variable
-            the mean
-            the standard deviation (std)
-            the minimum value
-            the IQR (Interquartile Range: 25%, 50% and 75%)
-            the maximum value    
+                  the count of that variable
+                  the mean
+                  the standard deviation (std)
+                  the minimum value
+                  the IQR (Interquartile Range: 25%, 50% and 75%)
+                  the maximum value    
       
       
 #This function will download the dataset into your browser 
