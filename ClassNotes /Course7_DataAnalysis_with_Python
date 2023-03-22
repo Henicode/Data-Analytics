@@ -82,8 +82,10 @@ This will show:
             first = df[["body-style", "price"]]
             grouping = first.groupby(["body-style"], as_index=False).mean()
             grouping
-
-
+# Create and train a Multiple Linear Regression model "lm2" where the response variable is "price",
+# and the predictor variable is "normalized-losses" and "highway-mpg".
+            lm2 = LinearRegression()
+            lm2.fit(df[['normalized-losses' , 'highway-mpg']],df['price'])
 
 
 
