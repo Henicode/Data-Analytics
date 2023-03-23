@@ -87,7 +87,7 @@ This will show:
             lm2 = LinearRegression()
             lm2.fit(df[['normalized-losses' , 'highway-mpg']],df['price'])
 
-
+more
 
 
 
