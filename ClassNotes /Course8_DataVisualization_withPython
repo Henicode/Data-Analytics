@@ -15,10 +15,22 @@ There are main 2 ways to select rows:
     df.loc[label]    # filters by the labels of the index/column
     df.iloc[index]   # filters by the positions of the index/column
 
+-------------------------------------------\
 
-
-more
-MORE
+So each row consists of 13 features:
+            IncidntNum: Incident Number
+            Category: Category of crime or incident
+            Descript: Description of the crime or incident
+            DayOfWeek: The day of week on which the incident occurred
+            Date: The Date on which the incident occurred
+            Time: The time of day on which the incident occurred
+            PdDistrict: The police department district
+            Resolution: The resolution of the crime in terms whether the perpetrator was arrested or not
+            Address: The closest address to where the incident took place
+            X: The longitude value of the crime location
+            Y: The latitude value of the crime location
+            Location: A tuple of the latitude and the longitude values
+            PdId: The police department ID
 
 
 
