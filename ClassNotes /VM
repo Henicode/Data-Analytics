@@ -6,3 +6,7 @@ CREATING A VM IN CLOUD SHELL
   --image UbuntuLTS \
   --admin-user username \
   --generate-ssh-keys
+
+
+
+-----more
